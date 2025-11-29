@@ -1,0 +1,1181 @@
+[33020 - Suricata-Main] 2025-11-21 18:01:00 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[33020 - Suricata-Main] 2025-11-21 18:01:00 Info: cpu: CPUs/cores online: 20
+[33020 - Suricata-Main] 2025-11-21 18:01:00 Info: suricata: Setting engine mode to IDS mode by default
+[33020 - Suricata-Main] 2025-11-21 18:01:00 Info: exception-policy: master exception-policy set to: auto
+[33020 - Suricata-Main] 2025-11-21 18:01:00 Info: suricata: Preparing unexpected signal handling
+[33020 - Suricata-Main] 2025-11-21 18:01:00 Info: log-pcap: Using log dir /home/rishit/Desktop/suricata_project/logs
+[33020 - Suricata-Main] 2025-11-21 18:01:00 Info: log-pcap: Selected pcap-log compression method: none
+[33020 - Suricata-Main] 2025-11-21 18:01:00 Info: log-pcap: Selected pcap-log conditional logging: all
+[33020 - Suricata-Main] 2025-11-21 18:01:00 Info: log-pcap: using normal logging
+[33020 - Suricata-Main] 2025-11-21 18:01:00 Info: logopenfile: fast output device (regular) initialized: fast.log
+[33020 - Suricata-Main] 2025-11-21 18:01:00 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[33020 - Suricata-Main] 2025-11-21 18:01:00 Info: logopenfile: stats output device (regular) initialized: stats.log
+[33020 - Suricata-Main] 2025-11-21 18:01:00 Warning: detect: No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+[33020 - Suricata-Main] 2025-11-21 18:01:00 Warning: detect: 1 rule files specified, but no rules were loaded!
+[33020 - Suricata-Main] 2025-11-21 18:01:00 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[33020 - Suricata-Main] 2025-11-21 18:01:00 Info: detect: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[33020 - Suricata-Main] 2025-11-21 18:01:00 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[33020 - Suricata-Main] 2025-11-21 18:01:00 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[33020 - Suricata-Main] 2025-11-21 18:01:00 Info: runmodes: wlan0: creating 20 threads
+[33022 - W#01-wlan0] 2025-11-21 18:01:00 Info: ioctl: wlan0: MTU 1500
+[33020 - Suricata-Main] 2025-11-21 18:01:00 Notice: threads: Threads created -> W: 20 FM: 1 FR: 1   Engine started.
+[33033 - W#12-wlan0] 2025-11-21 18:01:01 Error: log-pcap: Error opening dump file /home/rishit/Desktop/suricata_project/logs//home/rishit/Desktop/suricata_project/pcaps/suri.pcap.1763748060: No such file or directory
+[33020 - Suricata-Main] 2025-11-21 18:16:05 Notice: suricata: Signal Received.  Stopping engine.
+[33020 - Suricata-Main] 2025-11-21 18:16:05 Info: suricata: time elapsed 905.110s
+[33020 - Suricata-Main] 2025-11-21 18:16:06 Info: counters: Alerts: 0
+[33020 - Suricata-Main] 2025-11-21 18:16:06 Notice: device: wlan0: packets: 4971, drops: 0 (0.00%), invalid chksum: 0
+[39399 - Suricata-Main] 2025-11-21 18:16:59 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[39399 - Suricata-Main] 2025-11-21 18:16:59 Info: cpu: CPUs/cores online: 20
+[39399 - Suricata-Main] 2025-11-21 18:16:59 Info: suricata: Setting engine mode to IDS mode by default
+[39399 - Suricata-Main] 2025-11-21 18:16:59 Info: exception-policy: master exception-policy set to: auto
+[39399 - Suricata-Main] 2025-11-21 18:16:59 Info: suricata: Preparing unexpected signal handling
+[39399 - Suricata-Main] 2025-11-21 18:16:59 Info: log-pcap: Using log dir /home/rishit/Desktop/suricata_project/logs
+[39399 - Suricata-Main] 2025-11-21 18:16:59 Info: log-pcap: Selected pcap-log compression method: none
+[39399 - Suricata-Main] 2025-11-21 18:16:59 Info: log-pcap: Selected pcap-log conditional logging: all
+[39399 - Suricata-Main] 2025-11-21 18:16:59 Info: log-pcap: using normal logging
+[39399 - Suricata-Main] 2025-11-21 18:16:59 Info: logopenfile: fast output device (regular) initialized: fast.log
+[39399 - Suricata-Main] 2025-11-21 18:16:59 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[39399 - Suricata-Main] 2025-11-21 18:16:59 Info: logopenfile: stats output device (regular) initialized: stats.log
+[39399 - Suricata-Main] 2025-11-21 18:16:59 Warning: detect: No rule files match the pattern /home/rishit/Desktop/suricata_project/rules/local.rules
+[39399 - Suricata-Main] 2025-11-21 18:16:59 Warning: detect: 1 rule files specified, but no rules were loaded!
+[39399 - Suricata-Main] 2025-11-21 18:16:59 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[39399 - Suricata-Main] 2025-11-21 18:16:59 Info: detect: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[39399 - Suricata-Main] 2025-11-21 18:16:59 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[39399 - Suricata-Main] 2025-11-21 18:16:59 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[39399 - Suricata-Main] 2025-11-21 18:16:59 Info: runmodes: wlan0: creating 20 threads
+[39401 - W#01-wlan0] 2025-11-21 18:16:59 Info: ioctl: wlan0: MTU 1500
+[39399 - Suricata-Main] 2025-11-21 18:17:00 Notice: threads: Threads created -> W: 20 FM: 1 FR: 1   Engine started.
+[39403 - W#03-wlan0] 2025-11-21 18:17:00 Error: log-pcap: Error opening dump file /home/rishit/Desktop/suricata_project/logs//home/rishit/Desktop/suricata_project/pcaps/suri.pcap.1763749019: No such file or directory
+[39399 - Suricata-Main] 2025-11-21 18:18:07 Notice: suricata: Signal Received.  Stopping engine.
+[39399 - Suricata-Main] 2025-11-21 18:18:08 Info: suricata: time elapsed 68.721s
+[39399 - Suricata-Main] 2025-11-21 18:18:09 Info: counters: Alerts: 0
+[39399 - Suricata-Main] 2025-11-21 18:18:09 Notice: device: wlan0: packets: 926, drops: 3 (0.32%), invalid chksum: 0
+[44217 - Suricata-Main] 2025-11-21 18:28:50 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[44217 - Suricata-Main] 2025-11-21 18:28:50 Info: cpu: CPUs/cores online: 20
+[44217 - Suricata-Main] 2025-11-21 18:28:50 Info: suricata: Setting engine mode to IDS mode by default
+[44217 - Suricata-Main] 2025-11-21 18:28:50 Info: exception-policy: master exception-policy set to: auto
+[44217 - Suricata-Main] 2025-11-21 18:28:50 Info: suricata: Preparing unexpected signal handling
+[44217 - Suricata-Main] 2025-11-21 18:28:50 Info: log-pcap: Using log dir /home/rishit/Desktop/suricata_project/logs
+[44217 - Suricata-Main] 2025-11-21 18:28:50 Info: log-pcap: Selected pcap-log compression method: none
+[44217 - Suricata-Main] 2025-11-21 18:28:50 Info: log-pcap: Selected pcap-log conditional logging: all
+[44217 - Suricata-Main] 2025-11-21 18:28:50 Info: log-pcap: using normal logging
+[44217 - Suricata-Main] 2025-11-21 18:28:50 Info: logopenfile: fast output device (regular) initialized: fast.log
+[44217 - Suricata-Main] 2025-11-21 18:28:50 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[44217 - Suricata-Main] 2025-11-21 18:28:50 Info: logopenfile: stats output device (regular) initialized: stats.log
+[44217 - Suricata-Main] 2025-11-21 18:28:50 Info: detect: 1 rule files processed. 1 rules successfully loaded, 0 rules failed, 0 rules skipped
+[44217 - Suricata-Main] 2025-11-21 18:28:50 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[44217 - Suricata-Main] 2025-11-21 18:28:50 Info: detect: 1 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[44217 - Suricata-Main] 2025-11-21 18:28:50 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[44217 - Suricata-Main] 2025-11-21 18:28:50 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[44217 - Suricata-Main] 2025-11-21 18:28:50 Info: runmodes: wlan0: creating 20 threads
+[44220 - W#01-wlan0] 2025-11-21 18:28:51 Info: ioctl: wlan0: MTU 1500
+[44217 - Suricata-Main] 2025-11-21 18:28:51 Notice: threads: Threads created -> W: 20 FM: 1 FR: 1   Engine started.
+[44222 - W#03-wlan0] 2025-11-21 18:28:52 Error: log-pcap: Error opening dump file /home/rishit/Desktop/suricata_project/logs//home/rishit/Desktop/suricata_project/pcaps/suri.pcap.1763749730: No such file or directory
+[44217 - Suricata-Main] 2025-11-21 18:28:59 Notice: suricata: Signal Received.  Stopping engine.
+[44217 - Suricata-Main] 2025-11-21 18:29:00 Info: suricata: time elapsed 10.119s
+[44217 - Suricata-Main] 2025-11-21 18:29:01 Info: counters: Alerts: 4
+[44217 - Suricata-Main] 2025-11-21 18:29:01 Notice: device: wlan0: packets: 143, drops: 37 (25.87%), invalid chksum: 0
+[44843 - Suricata-Main] 2025-11-21 18:30:19 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[44843 - Suricata-Main] 2025-11-21 18:30:19 Info: cpu: CPUs/cores online: 20
+[44843 - Suricata-Main] 2025-11-21 18:30:19 Info: suricata: Setting engine mode to IDS mode by default
+[44843 - Suricata-Main] 2025-11-21 18:30:19 Info: exception-policy: master exception-policy set to: auto
+[44843 - Suricata-Main] 2025-11-21 18:30:19 Info: suricata: Preparing unexpected signal handling
+[44843 - Suricata-Main] 2025-11-21 18:30:19 Info: log-pcap: Using log dir /home/rishit/Desktop/suricata_project/logs
+[44843 - Suricata-Main] 2025-11-21 18:30:19 Info: log-pcap: Selected pcap-log compression method: none
+[44843 - Suricata-Main] 2025-11-21 18:30:19 Info: log-pcap: Selected pcap-log conditional logging: all
+[44843 - Suricata-Main] 2025-11-21 18:30:19 Info: log-pcap: using normal logging
+[44843 - Suricata-Main] 2025-11-21 18:30:19 Info: logopenfile: fast output device (regular) initialized: fast.log
+[44843 - Suricata-Main] 2025-11-21 18:30:19 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[44843 - Suricata-Main] 2025-11-21 18:30:19 Info: logopenfile: stats output device (regular) initialized: stats.log
+[44843 - Suricata-Main] 2025-11-21 18:30:19 Info: detect: 1 rule files processed. 1 rules successfully loaded, 0 rules failed, 0 rules skipped
+[44843 - Suricata-Main] 2025-11-21 18:30:19 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[44843 - Suricata-Main] 2025-11-21 18:30:19 Info: detect: 1 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[44843 - Suricata-Main] 2025-11-21 18:30:19 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[44843 - Suricata-Main] 2025-11-21 18:30:19 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[44843 - Suricata-Main] 2025-11-21 18:30:19 Info: runmodes: wlan0: creating 20 threads
+[44845 - W#01-wlan0] 2025-11-21 18:30:19 Info: ioctl: wlan0: MTU 1500
+[44843 - Suricata-Main] 2025-11-21 18:30:20 Notice: threads: Threads created -> W: 20 FM: 1 FR: 1   Engine started.
+[44856 - W#12-wlan0] 2025-11-21 18:30:20 Error: log-pcap: Error opening dump file /home/rishit/Desktop/suricata_project/logs//home/rishit/Desktop/suricata_project/pcaps/suri.pcap.1763749819: No such file or directory
+[44843 - Suricata-Main] 2025-11-21 18:40:02 Notice: suricata: Signal Received.  Stopping engine.
+[44843 - Suricata-Main] 2025-11-21 18:40:03 Info: suricata: time elapsed 583.591s
+[44843 - Suricata-Main] 2025-11-21 18:40:04 Info: counters: Alerts: 29
+[44843 - Suricata-Main] 2025-11-21 18:40:04 Notice: device: wlan0: packets: 3559, drops: 1 (0.03%), invalid chksum: 0
+[48849 - Suricata-Main] 2025-11-21 18:40:08 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[48849 - Suricata-Main] 2025-11-21 18:40:08 Info: cpu: CPUs/cores online: 20
+[48849 - Suricata-Main] 2025-11-21 18:40:08 Info: suricata: Setting engine mode to IDS mode by default
+[48849 - Suricata-Main] 2025-11-21 18:40:08 Info: exception-policy: master exception-policy set to: auto
+[48849 - Suricata-Main] 2025-11-21 18:40:08 Info: suricata: Preparing unexpected signal handling
+[48849 - Suricata-Main] 2025-11-21 18:40:08 Info: log-pcap: Using log dir /home/rishit/Desktop/suricata_project/pcaps
+[48849 - Suricata-Main] 2025-11-21 18:40:08 Info: log-pcap: Selected pcap-log compression method: none
+[48849 - Suricata-Main] 2025-11-21 18:40:08 Info: log-pcap: Selected pcap-log conditional logging: all
+[48849 - Suricata-Main] 2025-11-21 18:40:08 Info: log-pcap: using normal logging
+[48849 - Suricata-Main] 2025-11-21 18:40:08 Info: logopenfile: fast output device (regular) initialized: fast.log
+[48849 - Suricata-Main] 2025-11-21 18:40:08 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[48849 - Suricata-Main] 2025-11-21 18:40:08 Info: logopenfile: stats output device (regular) initialized: stats.log
+[48849 - Suricata-Main] 2025-11-21 18:40:08 Info: detect: 1 rule files processed. 1 rules successfully loaded, 0 rules failed, 0 rules skipped
+[48849 - Suricata-Main] 2025-11-21 18:40:08 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[48849 - Suricata-Main] 2025-11-21 18:40:08 Info: detect: 1 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[48849 - Suricata-Main] 2025-11-21 18:40:08 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[48849 - Suricata-Main] 2025-11-21 18:40:08 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[48849 - Suricata-Main] 2025-11-21 18:40:08 Info: runmodes: wlan0: creating 20 threads
+[48851 - W#01-wlan0] 2025-11-21 18:40:08 Info: ioctl: wlan0: MTU 1500
+[48849 - Suricata-Main] 2025-11-21 18:40:09 Notice: threads: Threads created -> W: 20 FM: 1 FR: 1   Engine started.
+[48849 - Suricata-Main] 2025-11-21 18:41:33 Notice: suricata: Signal Received.  Stopping engine.
+[48849 - Suricata-Main] 2025-11-21 18:41:33 Info: suricata: time elapsed 85.598s
+[48849 - Suricata-Main] 2025-11-21 18:41:34 Info: counters: Alerts: 5
+[48849 - Suricata-Main] 2025-11-21 18:41:34 Notice: device: wlan0: packets: 809, drops: 0 (0.00%), invalid chksum: 0
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Info: cpu: CPUs/cores online: 20
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Info: suricata: Setting engine mode to IDS mode by default
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Info: exception-policy: master exception-policy set to: auto
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Info: suricata: Preparing unexpected signal handling
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Info: log-pcap: Using log dir /home/rishit/Desktop/suricata_project/pcaps
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Info: log-pcap: Selected pcap-log compression method: none
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Info: log-pcap: Selected pcap-log conditional logging: all
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Info: log-pcap: using normal logging
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Info: logopenfile: fast output device (regular) initialized: fast.log
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Info: logopenfile: stats output device (regular) initialized: stats.log
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect-parse: protocol "dnp3" cannot be used in a signature.  Either detection for this protocol is not yet supported OR detection has been disabled for protocol through the yaml option app-layer.protocols.dnp3.detection-enabled
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect: error parsing signature "alert dnp3 any any -> any any (msg:"SURICATA DNP3 Request flood detected";       app-layer-event:dnp3.flooded; classtype:protocol-command-decode; sid:2270000; rev:2;)" from file /home/rishit/Desktop/suricata_project/rules/dnp3-events.rules at line 7
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect-parse: protocol "dnp3" cannot be used in a signature.  Either detection for this protocol is not yet supported OR detection has been disabled for protocol through the yaml option app-layer.protocols.dnp3.detection-enabled
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect: error parsing signature "alert dnp3 any any -> any any (msg:"SURICATA DNP3 Length too small";       app-layer-event:dnp3.len_too_small; classtype:protocol-command-decode; sid:2270001; rev:3;)" from file /home/rishit/Desktop/suricata_project/rules/dnp3-events.rules at line 13
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect-parse: protocol "dnp3" cannot be used in a signature.  Either detection for this protocol is not yet supported OR detection has been disabled for protocol through the yaml option app-layer.protocols.dnp3.detection-enabled
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect: error parsing signature "alert dnp3 any any -> any any (msg:"SURICATA DNP3 Bad link CRC";       app-layer-event:dnp3.bad_link_crc; classtype:protocol-command-decode; sid:2270002; rev:2;)" from file /home/rishit/Desktop/suricata_project/rules/dnp3-events.rules at line 17
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect-parse: protocol "dnp3" cannot be used in a signature.  Either detection for this protocol is not yet supported OR detection has been disabled for protocol through the yaml option app-layer.protocols.dnp3.detection-enabled
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect: error parsing signature "alert dnp3 any any -> any any (msg:"SURICATA DNP3 Bad transport CRC";       app-layer-event:dnp3.bad_transport_crc; classtype:protocol-command-decode; sid:2270003; rev:2;)" from file /home/rishit/Desktop/suricata_project/rules/dnp3-events.rules at line 21
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect-parse: protocol "dnp3" cannot be used in a signature.  Either detection for this protocol is not yet supported OR detection has been disabled for protocol through the yaml option app-layer.protocols.dnp3.detection-enabled
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect: error parsing signature "alert dnp3 any any -> any any (msg:"SURICATA DNP3 Unknown object";       app-layer-event:dnp3.unknown_object; classtype:protocol-command-decode; sid:2270004; rev:2;)" from file /home/rishit/Desktop/suricata_project/rules/dnp3-events.rules at line 25
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect-parse: protocol "enip" cannot be used in a signature.  Either detection for this protocol is not yet supported OR detection has been disabled for protocol through the yaml option app-layer.protocols.enip.detection-enabled
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect: error parsing signature "alert enip any any -> any any (msg:"SURICATA ENIP too many transactions"; app-layer-event:enip.too_many_transactions; classtype:protocol-command-decode; sid:2234000; rev:1;)" from file /home/rishit/Desktop/suricata_project/rules/enip-events.rules at line 7
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect-parse: protocol "enip" cannot be used in a signature.  Either detection for this protocol is not yet supported OR detection has been disabled for protocol through the yaml option app-layer.protocols.enip.detection-enabled
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect: error parsing signature "alert enip any any -> any any (msg:"SURICATA ENIP invalid PDU"; app-layer-event:enip.invalid_pdu; classtype:protocol-command-decode; sid:2234001; rev:1;)" from file /home/rishit/Desktop/suricata_project/rules/enip-events.rules at line 8
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect-parse: protocol "modbus" cannot be used in a signature.  Either detection for this protocol is not yet supported OR detection has been disabled for protocol through the yaml option app-layer.protocols.modbus.detection-enabled
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect: error parsing signature "alert modbus any any -> any any (msg:"SURICATA Modbus invalid Protocol version"; app-layer-event:modbus.invalid_protocol_id; classtype:protocol-command-decode; sid:2250001; rev:2;)" from file /home/rishit/Desktop/suricata_project/rules/modbus-events.rules at line 2
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect-parse: protocol "modbus" cannot be used in a signature.  Either detection for this protocol is not yet supported OR detection has been disabled for protocol through the yaml option app-layer.protocols.modbus.detection-enabled
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect: error parsing signature "alert modbus any any -> any any (msg:"SURICATA Modbus unsolicited response"; app-layer-event:modbus.unsolicited_response; classtype:protocol-command-decode; sid:2250002; rev:2;)" from file /home/rishit/Desktop/suricata_project/rules/modbus-events.rules at line 4
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect-parse: protocol "modbus" cannot be used in a signature.  Either detection for this protocol is not yet supported OR detection has been disabled for protocol through the yaml option app-layer.protocols.modbus.detection-enabled
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect: error parsing signature "alert modbus any any -> any any (msg:"SURICATA Modbus invalid Length"; app-layer-event:modbus.invalid_length; classtype:protocol-command-decode; sid:2250003; rev:2;)" from file /home/rishit/Desktop/suricata_project/rules/modbus-events.rules at line 6
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect-parse: protocol "modbus" cannot be used in a signature.  Either detection for this protocol is not yet supported OR detection has been disabled for protocol through the yaml option app-layer.protocols.modbus.detection-enabled
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect: error parsing signature "alert modbus any any -> any any (msg:"SURICATA Modbus invalid Function code"; app-layer-event:modbus.invalid_function_code; classtype:protocol-command-decode; sid:2250005; rev:2;)" from file /home/rishit/Desktop/suricata_project/rules/modbus-events.rules at line 8
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect-parse: protocol "modbus" cannot be used in a signature.  Either detection for this protocol is not yet supported OR detection has been disabled for protocol through the yaml option app-layer.protocols.modbus.detection-enabled
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect: error parsing signature "alert modbus any any -> any any (msg:"SURICATA Modbus invalid Value"; app-layer-event:modbus.invalid_value; classtype:protocol-command-decode; sid:2250006; rev:2;)" from file /home/rishit/Desktop/suricata_project/rules/modbus-events.rules at line 10
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect-parse: protocol "modbus" cannot be used in a signature.  Either detection for this protocol is not yet supported OR detection has been disabled for protocol through the yaml option app-layer.protocols.modbus.detection-enabled
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect: error parsing signature "alert modbus any any -> any any (msg:"SURICATA Modbus Exception code invalid"; flow:to_client; app-layer-event:modbus.invalid_exception_code; classtype:protocol-command-decode; sid:2250007; rev:2;)" from file /home/rishit/Desktop/suricata_project/rules/modbus-events.rules at line 12
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect-parse: protocol "modbus" cannot be used in a signature.  Either detection for this protocol is not yet supported OR detection has been disabled for protocol through the yaml option app-layer.protocols.modbus.detection-enabled
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect: error parsing signature "alert modbus any any -> any any (msg:"SURICATA Modbus Data mismatch"; flow:to_client; app-layer-event:modbus.value_mismatch; classtype:protocol-command-decode; sid:2250008; rev:2;)" from file /home/rishit/Desktop/suricata_project/rules/modbus-events.rules at line 14
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect-parse: protocol "modbus" cannot be used in a signature.  Either detection for this protocol is not yet supported OR detection has been disabled for protocol through the yaml option app-layer.protocols.modbus.detection-enabled
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect: error parsing signature "alert modbus any any -> any any (msg:"SURICATA Modbus Request flood detected"; flow:to_server; app-layer-event:modbus.flooded; classtype:protocol-command-decode; sid:2250009; rev:2;)" from file /home/rishit/Desktop/suricata_project/rules/modbus-events.rules at line 16
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect-parse: protocol "pgsql" cannot be used in a signature.  Either detection for this protocol is not yet supported OR detection has been disabled for protocol through the yaml option app-layer.protocols.pgsql.detection-enabled
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect: error parsing signature "alert pgsql any any -> any any (msg:"SURICATA PGSQL Too many transactions"; app-layer-event:pgsql.too_many_transactions; sid:2241000; rev:1;)" from file /home/rishit/Desktop/suricata_project/rules/pgsql-events.rules at line 5
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect-parse: protocol "pgsql" cannot be used in a signature.  Either detection for this protocol is not yet supported OR detection has been disabled for protocol through the yaml option app-layer.protocols.pgsql.detection-enabled
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect: error parsing signature "alert pgsql any any -> any any (msg:"SURICATA PGSQL Malformed request"; app-layer-event:pgsql.malformed_request; flow:to_server; sid:2241001; rev:1;)" from file /home/rishit/Desktop/suricata_project/rules/pgsql-events.rules at line 6
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect-parse: protocol "pgsql" cannot be used in a signature.  Either detection for this protocol is not yet supported OR detection has been disabled for protocol through the yaml option app-layer.protocols.pgsql.detection-enabled
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect: error parsing signature "alert pgsql any any -> any any (msg:"SURICATA PGSQL Malformed response"; app-layer-event:pgsql.malformed_response; flow:to_client; sid:2241002; rev:1;)" from file /home/rishit/Desktop/suricata_project/rules/pgsql-events.rules at line 7
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect-parse: protocol "pgsql" cannot be used in a signature.  Either detection for this protocol is not yet supported OR detection has been disabled for protocol through the yaml option app-layer.protocols.pgsql.detection-enabled
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Error: detect: error parsing signature "alert pgsql any any -> any any (msg:"SURICATA PGSQL Invalid length"; app-layer-event:pgsql.invalid_length; sid:2241003; rev:1;)" from file /home/rishit/Desktop/suricata_project/rules/pgsql-events.rules at line 8
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Info: detect: 28 rule files processed. 392 rules successfully loaded, 19 rules failed, 0 rules skipped
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Info: detect: 392 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 209 inspect application layer, 110 are decoder event only
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[60169 - Suricata-Main] 2025-11-21 19:07:59 Info: runmodes: wlan0: creating 20 threads
+[60171 - W#01-wlan0] 2025-11-21 19:07:59 Info: ioctl: wlan0: MTU 1500
+[60169 - Suricata-Main] 2025-11-21 19:08:00 Notice: threads: Threads created -> W: 20 FM: 1 FR: 1   Engine started.
+[60169 - Suricata-Main] 2025-11-21 19:11:22 Notice: suricata: Signal Received.  Stopping engine.
+[60169 - Suricata-Main] 2025-11-21 19:11:23 Info: suricata: time elapsed 203.823s
+[60169 - Suricata-Main] 2025-11-21 19:11:24 Info: counters: Alerts: 12
+[60169 - Suricata-Main] 2025-11-21 19:11:24 Notice: device: wlan0: packets: 1329, drops: 0 (0.00%), invalid chksum: 0
+[61703 - Suricata-Main] 2025-11-21 19:11:28 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[61703 - Suricata-Main] 2025-11-21 19:11:28 Info: cpu: CPUs/cores online: 20
+[61703 - Suricata-Main] 2025-11-21 19:11:28 Info: suricata: Setting engine mode to IDS mode by default
+[61703 - Suricata-Main] 2025-11-21 19:11:28 Info: exception-policy: master exception-policy set to: auto
+[61703 - Suricata-Main] 2025-11-21 19:11:28 Info: suricata: Preparing unexpected signal handling
+[61703 - Suricata-Main] 2025-11-21 19:11:28 Info: log-pcap: Using log dir /home/rishit/Desktop/suricata_project/pcaps
+[61703 - Suricata-Main] 2025-11-21 19:11:28 Info: log-pcap: Selected pcap-log compression method: none
+[61703 - Suricata-Main] 2025-11-21 19:11:28 Info: log-pcap: Selected pcap-log conditional logging: all
+[61703 - Suricata-Main] 2025-11-21 19:11:28 Info: log-pcap: using normal logging
+[61703 - Suricata-Main] 2025-11-21 19:11:28 Info: logopenfile: fast output device (regular) initialized: fast.log
+[61703 - Suricata-Main] 2025-11-21 19:11:28 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[61703 - Suricata-Main] 2025-11-21 19:11:28 Info: logopenfile: stats output device (regular) initialized: stats.log
+[61703 - Suricata-Main] 2025-11-21 19:11:28 Info: detect: 6 rule files processed. 158 rules successfully loaded, 0 rules failed, 0 rules skipped
+[61703 - Suricata-Main] 2025-11-21 19:11:28 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[61703 - Suricata-Main] 2025-11-21 19:11:28 Info: detect: 158 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 98 inspect application layer, 0 are decoder event only
+[61703 - Suricata-Main] 2025-11-21 19:11:28 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[61703 - Suricata-Main] 2025-11-21 19:11:28 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[61703 - Suricata-Main] 2025-11-21 19:11:28 Info: runmodes: wlan0: creating 20 threads
+[61705 - W#01-wlan0] 2025-11-21 19:11:28 Info: ioctl: wlan0: MTU 1500
+[61703 - Suricata-Main] 2025-11-21 19:11:29 Notice: threads: Threads created -> W: 20 FM: 1 FR: 1   Engine started.
+[61703 - Suricata-Main] 2025-11-21 19:11:34 Notice: suricata: Signal Received.  Stopping engine.
+[61703 - Suricata-Main] 2025-11-21 19:11:35 Info: suricata: time elapsed 7.149s
+[61703 - Suricata-Main] 2025-11-21 19:11:36 Info: counters: Alerts: 4
+[61703 - Suricata-Main] 2025-11-21 19:11:36 Notice: device: wlan0: packets: 7, drops: 0 (0.00%), invalid chksum: 0
+[72353 - Suricata-Main] 2025-11-21 19:37:41 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[72353 - Suricata-Main] 2025-11-21 19:37:41 Info: cpu: CPUs/cores online: 20
+[72353 - Suricata-Main] 2025-11-21 19:37:41 Info: suricata: Setting engine mode to IDS mode by default
+[72353 - Suricata-Main] 2025-11-21 19:37:41 Info: exception-policy: master exception-policy set to: auto
+[72353 - Suricata-Main] 2025-11-21 19:37:41 Info: suricata: Preparing unexpected signal handling
+[72353 - Suricata-Main] 2025-11-21 19:37:41 Info: log-pcap: Using log dir /home/rishit/Desktop/IDS/pcaps
+[72353 - Suricata-Main] 2025-11-21 19:37:41 Info: log-pcap: Selected pcap-log compression method: none
+[72353 - Suricata-Main] 2025-11-21 19:37:41 Info: log-pcap: Selected pcap-log conditional logging: all
+[72353 - Suricata-Main] 2025-11-21 19:37:41 Info: log-pcap: using normal logging
+[72353 - Suricata-Main] 2025-11-21 19:37:41 Info: logopenfile: fast output device (regular) initialized: fast.log
+[72353 - Suricata-Main] 2025-11-21 19:37:41 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[72353 - Suricata-Main] 2025-11-21 19:37:41 Info: logopenfile: stats output device (regular) initialized: stats.log
+[72353 - Suricata-Main] 2025-11-21 19:37:41 Warning: detect: No rule files match the pattern /home/rishit/Desktop/IDS/http-events.rules
+[72353 - Suricata-Main] 2025-11-21 19:37:41 Warning: detect: No rule files match the pattern /home/rishit/Desktop/IDS/dns-events.rules
+[72353 - Suricata-Main] 2025-11-21 19:37:41 Warning: detect: No rule files match the pattern /home/rishit/Desktop/IDS/stream-events.rules
+[72353 - Suricata-Main] 2025-11-21 19:37:41 Warning: detect: No rule files match the pattern /home/rishit/Desktop/IDS/tls-events.rules
+[72353 - Suricata-Main] 2025-11-21 19:37:41 Warning: detect: No rule files match the pattern /home/rishit/Desktop/IDS/ssh-events.rules
+[72353 - Suricata-Main] 2025-11-21 19:37:41 Info: detect: 6 rule files processed. 1 rules successfully loaded, 0 rules failed, 0 rules skipped
+[72353 - Suricata-Main] 2025-11-21 19:37:41 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[72353 - Suricata-Main] 2025-11-21 19:37:41 Info: detect: 1 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[72353 - Suricata-Main] 2025-11-21 19:37:41 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[72353 - Suricata-Main] 2025-11-21 19:37:41 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[72353 - Suricata-Main] 2025-11-21 19:37:41 Info: runmodes: wlan0: creating 20 threads
+[72361 - W#01-wlan0] 2025-11-21 19:37:41 Info: ioctl: wlan0: MTU 1500
+[72353 - Suricata-Main] 2025-11-21 19:37:42 Notice: threads: Threads created -> W: 20 FM: 1 FR: 1   Engine started.
+[72353 - Suricata-Main] 2025-11-21 19:38:54 Notice: suricata: Signal Received.  Stopping engine.
+[72353 - Suricata-Main] 2025-11-21 19:38:54 Info: suricata: time elapsed 72.703s
+[72353 - Suricata-Main] 2025-11-21 19:38:55 Info: counters: Alerts: 11
+[72353 - Suricata-Main] 2025-11-21 19:38:55 Notice: device: wlan0: packets: 908, drops: 1 (0.11%), invalid chksum: 0
+[72955 - Suricata-Main] 2025-11-21 19:38:59 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[72955 - Suricata-Main] 2025-11-21 19:38:59 Info: cpu: CPUs/cores online: 20
+[72955 - Suricata-Main] 2025-11-21 19:38:59 Info: suricata: Setting engine mode to IDS mode by default
+[72955 - Suricata-Main] 2025-11-21 19:38:59 Info: exception-policy: master exception-policy set to: auto
+[72955 - Suricata-Main] 2025-11-21 19:38:59 Info: suricata: Preparing unexpected signal handling
+[72955 - Suricata-Main] 2025-11-21 19:38:59 Info: log-pcap: Using log dir /home/rishit/Desktop/IDS/pcaps
+[72955 - Suricata-Main] 2025-11-21 19:38:59 Info: log-pcap: Selected pcap-log compression method: none
+[72955 - Suricata-Main] 2025-11-21 19:38:59 Info: log-pcap: Selected pcap-log conditional logging: all
+[72955 - Suricata-Main] 2025-11-21 19:38:59 Info: log-pcap: using normal logging
+[72955 - Suricata-Main] 2025-11-21 19:38:59 Info: logopenfile: fast output device (regular) initialized: fast.log
+[72955 - Suricata-Main] 2025-11-21 19:38:59 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[72955 - Suricata-Main] 2025-11-21 19:38:59 Info: logopenfile: stats output device (regular) initialized: stats.log
+[72955 - Suricata-Main] 2025-11-21 19:38:59 Info: detect: 6 rule files processed. 158 rules successfully loaded, 0 rules failed, 0 rules skipped
+[72955 - Suricata-Main] 2025-11-21 19:38:59 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[72955 - Suricata-Main] 2025-11-21 19:38:59 Info: detect: 158 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 98 inspect application layer, 0 are decoder event only
+[72955 - Suricata-Main] 2025-11-21 19:38:59 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[72955 - Suricata-Main] 2025-11-21 19:38:59 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[72955 - Suricata-Main] 2025-11-21 19:38:59 Info: runmodes: wlan0: creating 20 threads
+[72963 - W#01-wlan0] 2025-11-21 19:38:59 Info: ioctl: wlan0: MTU 1500
+[72955 - Suricata-Main] 2025-11-21 19:39:00 Notice: threads: Threads created -> W: 20 FM: 1 FR: 1   Engine started.
+[72955 - Suricata-Main] 2025-11-21 19:39:09 Notice: suricata: Signal Received.  Stopping engine.
+[72955 - Suricata-Main] 2025-11-21 19:39:09 Info: suricata: time elapsed 10.124s
+[72955 - Suricata-Main] 2025-11-21 19:39:10 Info: counters: Alerts: 3
+[72955 - Suricata-Main] 2025-11-21 19:39:10 Notice: device: wlan0: packets: 29, drops: 0 (0.00%), invalid chksum: 0
+[60793 - Suricata-Main] 2025-11-26 19:21:36 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[60793 - Suricata-Main] 2025-11-26 19:21:36 Info: cpu: CPUs/cores online: 20
+[60793 - Suricata-Main] 2025-11-26 19:21:36 Info: suricata: Setting engine mode to IDS mode by default
+[60793 - Suricata-Main] 2025-11-26 19:21:36 Info: exception-policy: master exception-policy set to: auto
+[60793 - Suricata-Main] 2025-11-26 19:21:36 Info: suricata: Preparing unexpected signal handling
+[60793 - Suricata-Main] 2025-11-26 19:21:36 Info: log-pcap: Using log dir /home/rishit/Desktop/IDS/pcaps
+[60793 - Suricata-Main] 2025-11-26 19:21:36 Info: log-pcap: Selected pcap-log compression method: none
+[60793 - Suricata-Main] 2025-11-26 19:21:36 Info: log-pcap: Selected pcap-log conditional logging: all
+[60793 - Suricata-Main] 2025-11-26 19:21:36 Info: log-pcap: using normal logging
+[60793 - Suricata-Main] 2025-11-26 19:21:36 Info: logopenfile: fast output device (regular) initialized: fast.log
+[60793 - Suricata-Main] 2025-11-26 19:21:36 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[60793 - Suricata-Main] 2025-11-26 19:21:36 Info: logopenfile: stats output device (regular) initialized: stats.log
+[60793 - Suricata-Main] 2025-11-26 19:21:36 Info: detect: 6 rule files processed. 158 rules successfully loaded, 0 rules failed, 0 rules skipped
+[60793 - Suricata-Main] 2025-11-26 19:21:36 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[60793 - Suricata-Main] 2025-11-26 19:21:36 Info: detect: 158 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 98 inspect application layer, 0 are decoder event only
+[60793 - Suricata-Main] 2025-11-26 19:21:36 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[60793 - Suricata-Main] 2025-11-26 19:21:36 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[60793 - Suricata-Main] 2025-11-26 19:21:36 Info: runmodes: wlan0: creating 20 threads
+[60797 - W#01-wlan0] 2025-11-26 19:21:36 Info: ioctl: wlan0: MTU 1500
+[60793 - Suricata-Main] 2025-11-26 19:21:37 Notice: threads: Threads created -> W: 20 FM: 1 FR: 1   Engine started.
+[60797 - W#01-wlan0] 2025-11-26 19:22:15 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60809 - W#13-wlan0] 2025-11-26 19:22:15 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60810 - W#14-wlan0] 2025-11-26 19:22:15 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60811 - W#15-wlan0] 2025-11-26 19:22:15 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60798 - W#02-wlan0] 2025-11-26 19:22:15 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60806 - W#10-wlan0] 2025-11-26 19:22:15 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60805 - W#09-wlan0] 2025-11-26 19:22:15 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60813 - W#17-wlan0] 2025-11-26 19:22:15 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60799 - W#03-wlan0] 2025-11-26 19:22:15 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60808 - W#12-wlan0] 2025-11-26 19:22:15 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60814 - W#18-wlan0] 2025-11-26 19:22:15 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60804 - W#08-wlan0] 2025-11-26 19:22:15 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60802 - W#06-wlan0] 2025-11-26 19:22:15 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60807 - W#11-wlan0] 2025-11-26 19:22:15 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60803 - W#07-wlan0] 2025-11-26 19:22:15 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60812 - W#16-wlan0] 2025-11-26 19:22:15 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60801 - W#05-wlan0] 2025-11-26 19:22:15 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60816 - W#20-wlan0] 2025-11-26 19:22:15 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60815 - W#19-wlan0] 2025-11-26 19:22:15 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60800 - W#04-wlan0] 2025-11-26 19:22:15 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60816 - W#20-wlan0] 2025-11-26 19:22:15 Info: af-packet: wlan0: interface is back up
+[60814 - W#18-wlan0] 2025-11-26 19:22:15 Info: af-packet: wlan0: interface is back up
+[60811 - W#15-wlan0] 2025-11-26 19:22:15 Info: af-packet: wlan0: interface is back up
+[60800 - W#04-wlan0] 2025-11-26 19:22:15 Info: af-packet: wlan0: interface is back up
+[60809 - W#13-wlan0] 2025-11-26 19:22:15 Info: af-packet: wlan0: interface is back up
+[60800 - W#04-wlan0] 2025-11-26 19:22:16 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60809 - W#13-wlan0] 2025-11-26 19:22:16 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60811 - W#15-wlan0] 2025-11-26 19:22:16 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60814 - W#18-wlan0] 2025-11-26 19:22:16 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60816 - W#20-wlan0] 2025-11-26 19:22:16 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60803 - W#07-wlan0] 2025-11-26 19:22:16 Error: af-packet: wlan0: failed to set fanout mode: Invalid argument
+[60807 - W#11-wlan0] 2025-11-26 19:22:16 Error: af-packet: wlan0: failed to set fanout mode: Invalid argument
+[60802 - W#06-wlan0] 2025-11-26 19:22:16 Error: af-packet: wlan0: failed to set fanout mode: Invalid argument
+[60801 - W#05-wlan0] 2025-11-26 19:22:16 Error: af-packet: wlan0: failed to set fanout mode: Invalid argument
+[60810 - W#14-wlan0] 2025-11-26 19:22:16 Error: af-packet: wlan0: failed to set fanout mode: Invalid argument
+[60804 - W#08-wlan0] 2025-11-26 19:22:16 Error: af-packet: wlan0: failed to set fanout mode: Invalid argument
+[60806 - W#10-wlan0] 2025-11-26 19:22:16 Error: af-packet: wlan0: failed to set fanout mode: Invalid argument
+[60805 - W#09-wlan0] 2025-11-26 19:22:16 Error: af-packet: wlan0: failed to set fanout mode: Invalid argument
+[60815 - W#19-wlan0] 2025-11-26 19:22:16 Error: af-packet: wlan0: failed to set fanout mode: Invalid argument
+[60808 - W#12-wlan0] 2025-11-26 19:22:16 Info: af-packet: wlan0: interface is back up
+[60813 - W#17-wlan0] 2025-11-26 19:22:16 Info: af-packet: wlan0: interface is back up
+[60797 - W#01-wlan0] 2025-11-26 19:22:16 Info: af-packet: wlan0: interface is back up
+[60798 - W#02-wlan0] 2025-11-26 19:22:16 Info: af-packet: wlan0: interface is back up
+[60812 - W#16-wlan0] 2025-11-26 19:22:16 Info: af-packet: wlan0: interface is back up
+[60799 - W#03-wlan0] 2025-11-26 19:22:16 Info: af-packet: wlan0: interface is back up
+[60803 - W#07-wlan0] 2025-11-26 19:22:16 Info: af-packet: wlan0: interface is back up
+[60807 - W#11-wlan0] 2025-11-26 19:22:16 Info: af-packet: wlan0: interface is back up
+[60800 - W#04-wlan0] 2025-11-26 19:22:16 Info: af-packet: wlan0: interface is back up
+[60814 - W#18-wlan0] 2025-11-26 19:22:16 Info: af-packet: wlan0: interface is back up
+[60811 - W#15-wlan0] 2025-11-26 19:22:16 Info: af-packet: wlan0: interface is back up
+[60816 - W#20-wlan0] 2025-11-26 19:22:16 Info: af-packet: wlan0: interface is back up
+[60809 - W#13-wlan0] 2025-11-26 19:22:16 Info: af-packet: wlan0: interface is back up
+[60802 - W#06-wlan0] 2025-11-26 19:22:17 Info: af-packet: wlan0: interface is back up
+[60805 - W#09-wlan0] 2025-11-26 19:22:17 Info: af-packet: wlan0: interface is back up
+[60810 - W#14-wlan0] 2025-11-26 19:22:17 Info: af-packet: wlan0: interface is back up
+[60804 - W#08-wlan0] 2025-11-26 19:22:17 Info: af-packet: wlan0: interface is back up
+[60806 - W#10-wlan0] 2025-11-26 19:22:17 Info: af-packet: wlan0: interface is back up
+[60801 - W#05-wlan0] 2025-11-26 19:22:17 Info: af-packet: wlan0: interface is back up
+[60815 - W#19-wlan0] 2025-11-26 19:22:17 Info: af-packet: wlan0: interface is back up
+[60797 - W#01-wlan0] 2025-11-26 19:22:24 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60813 - W#17-wlan0] 2025-11-26 19:22:24 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60801 - W#05-wlan0] 2025-11-26 19:22:24 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60809 - W#13-wlan0] 2025-11-26 19:22:24 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60798 - W#02-wlan0] 2025-11-26 19:22:24 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60804 - W#08-wlan0] 2025-11-26 19:22:24 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60807 - W#11-wlan0] 2025-11-26 19:22:24 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60799 - W#03-wlan0] 2025-11-26 19:22:24 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60800 - W#04-wlan0] 2025-11-26 19:22:24 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60816 - W#20-wlan0] 2025-11-26 19:22:24 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60812 - W#16-wlan0] 2025-11-26 19:22:24 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60810 - W#14-wlan0] 2025-11-26 19:22:24 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60806 - W#10-wlan0] 2025-11-26 19:22:24 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60811 - W#15-wlan0] 2025-11-26 19:22:24 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60808 - W#12-wlan0] 2025-11-26 19:22:24 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60803 - W#07-wlan0] 2025-11-26 19:22:24 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60815 - W#19-wlan0] 2025-11-26 19:22:24 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60805 - W#09-wlan0] 2025-11-26 19:22:24 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60814 - W#18-wlan0] 2025-11-26 19:22:24 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60802 - W#06-wlan0] 2025-11-26 19:22:24 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60798 - W#02-wlan0] 2025-11-26 19:22:25 Info: af-packet: wlan0: interface is back up
+[60816 - W#20-wlan0] 2025-11-26 19:22:25 Info: af-packet: wlan0: interface is back up
+[60801 - W#05-wlan0] 2025-11-26 19:22:25 Info: af-packet: wlan0: interface is back up
+[60813 - W#17-wlan0] 2025-11-26 19:22:25 Info: af-packet: wlan0: interface is back up
+[60807 - W#11-wlan0] 2025-11-26 19:22:25 Info: af-packet: wlan0: interface is back up
+[60800 - W#04-wlan0] 2025-11-26 19:22:25 Info: af-packet: wlan0: interface is back up
+[60812 - W#16-wlan0] 2025-11-26 19:22:25 Info: af-packet: wlan0: interface is back up
+[60811 - W#15-wlan0] 2025-11-26 19:22:25 Info: af-packet: wlan0: interface is back up
+[60809 - W#13-wlan0] 2025-11-26 19:22:25 Info: af-packet: wlan0: interface is back up
+[60799 - W#03-wlan0] 2025-11-26 19:22:25 Info: af-packet: wlan0: interface is back up
+[60804 - W#08-wlan0] 2025-11-26 19:22:25 Info: af-packet: wlan0: interface is back up
+[60806 - W#10-wlan0] 2025-11-26 19:22:25 Info: af-packet: wlan0: interface is back up
+[60808 - W#12-wlan0] 2025-11-26 19:22:25 Info: af-packet: wlan0: interface is back up
+[60814 - W#18-wlan0] 2025-11-26 19:22:25 Info: af-packet: wlan0: interface is back up
+[60797 - W#01-wlan0] 2025-11-26 19:22:25 Info: af-packet: wlan0: interface is back up
+[60803 - W#07-wlan0] 2025-11-26 19:22:25 Info: af-packet: wlan0: interface is back up
+[60810 - W#14-wlan0] 2025-11-26 19:22:25 Info: af-packet: wlan0: interface is back up
+[60805 - W#09-wlan0] 2025-11-26 19:22:25 Info: af-packet: wlan0: interface is back up
+[60802 - W#06-wlan0] 2025-11-26 19:22:25 Info: af-packet: wlan0: interface is back up
+[60815 - W#19-wlan0] 2025-11-26 19:22:25 Info: af-packet: wlan0: interface is back up
+[60801 - W#05-wlan0] 2025-11-26 19:22:26 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60798 - W#02-wlan0] 2025-11-26 19:22:26 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60805 - W#09-wlan0] 2025-11-26 19:22:26 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60809 - W#13-wlan0] 2025-11-26 19:22:26 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60811 - W#15-wlan0] 2025-11-26 19:22:26 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60799 - W#03-wlan0] 2025-11-26 19:22:26 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60802 - W#06-wlan0] 2025-11-26 19:22:26 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60807 - W#11-wlan0] 2025-11-26 19:22:26 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60797 - W#01-wlan0] 2025-11-26 19:22:26 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60814 - W#18-wlan0] 2025-11-26 19:22:26 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60808 - W#12-wlan0] 2025-11-26 19:22:26 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60810 - W#14-wlan0] 2025-11-26 19:22:26 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60812 - W#16-wlan0] 2025-11-26 19:22:26 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60815 - W#19-wlan0] 2025-11-26 19:22:26 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60804 - W#08-wlan0] 2025-11-26 19:22:26 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60806 - W#10-wlan0] 2025-11-26 19:22:26 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60800 - W#04-wlan0] 2025-11-26 19:22:26 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60803 - W#07-wlan0] 2025-11-26 19:22:26 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60813 - W#17-wlan0] 2025-11-26 19:22:26 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60816 - W#20-wlan0] 2025-11-26 19:22:26 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[60805 - W#09-wlan0] 2025-11-26 19:22:27 Info: af-packet: wlan0: interface is back up
+[60797 - W#01-wlan0] 2025-11-26 19:22:27 Info: af-packet: wlan0: interface is back up
+[60807 - W#11-wlan0] 2025-11-26 19:22:27 Info: af-packet: wlan0: interface is back up
+[60810 - W#14-wlan0] 2025-11-26 19:22:27 Info: af-packet: wlan0: interface is back up
+[60799 - W#03-wlan0] 2025-11-26 19:22:27 Info: af-packet: wlan0: interface is back up
+[60798 - W#02-wlan0] 2025-11-26 19:22:27 Info: af-packet: wlan0: interface is back up
+[60814 - W#18-wlan0] 2025-11-26 19:22:27 Info: af-packet: wlan0: interface is back up
+[60801 - W#05-wlan0] 2025-11-26 19:22:27 Info: af-packet: wlan0: interface is back up
+[60808 - W#12-wlan0] 2025-11-26 19:22:27 Info: af-packet: wlan0: interface is back up
+[60800 - W#04-wlan0] 2025-11-26 19:22:27 Info: af-packet: wlan0: interface is back up
+[60812 - W#16-wlan0] 2025-11-26 19:22:27 Info: af-packet: wlan0: interface is back up
+[60815 - W#19-wlan0] 2025-11-26 19:22:27 Info: af-packet: wlan0: interface is back up
+[60811 - W#15-wlan0] 2025-11-26 19:22:27 Info: af-packet: wlan0: interface is back up
+[60806 - W#10-wlan0] 2025-11-26 19:22:27 Info: af-packet: wlan0: interface is back up
+[60803 - W#07-wlan0] 2025-11-26 19:22:27 Info: af-packet: wlan0: interface is back up
+[60804 - W#08-wlan0] 2025-11-26 19:22:27 Info: af-packet: wlan0: interface is back up
+[60802 - W#06-wlan0] 2025-11-26 19:22:27 Info: af-packet: wlan0: interface is back up
+[60816 - W#20-wlan0] 2025-11-26 19:22:27 Info: af-packet: wlan0: interface is back up
+[60813 - W#17-wlan0] 2025-11-26 19:22:27 Info: af-packet: wlan0: interface is back up
+[60809 - W#13-wlan0] 2025-11-26 19:22:27 Info: af-packet: wlan0: interface is back up
+[60793 - Suricata-Main] 2025-11-26 19:31:57 Notice: suricata: Signal Received.  Stopping engine.
+[60793 - Suricata-Main] 2025-11-26 19:31:57 Info: suricata: time elapsed 621.228s
+[60793 - Suricata-Main] 2025-11-26 19:31:58 Info: counters: Alerts: 31
+[60793 - Suricata-Main] 2025-11-26 19:31:58 Notice: device: wlan0: packets: 12638, drops: 8455 (66.90%), invalid chksum: 0
+[69443 - Suricata-Main] 2025-11-26 19:41:43 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[69443 - Suricata-Main] 2025-11-26 19:41:43 Info: cpu: CPUs/cores online: 20
+[69443 - Suricata-Main] 2025-11-26 19:41:43 Info: suricata: Setting engine mode to IDS mode by default
+[69443 - Suricata-Main] 2025-11-26 19:41:43 Info: exception-policy: master exception-policy set to: auto
+[69443 - Suricata-Main] 2025-11-26 19:41:43 Info: suricata: Preparing unexpected signal handling
+[69443 - Suricata-Main] 2025-11-26 19:41:43 Info: log-pcap: Using log dir /home/rishit/Desktop/IDS/pcaps
+[69443 - Suricata-Main] 2025-11-26 19:41:43 Info: log-pcap: Selected pcap-log compression method: none
+[69443 - Suricata-Main] 2025-11-26 19:41:43 Info: log-pcap: Selected pcap-log conditional logging: all
+[69443 - Suricata-Main] 2025-11-26 19:41:43 Info: log-pcap: using normal logging
+[69443 - Suricata-Main] 2025-11-26 19:41:43 Info: logopenfile: fast output device (regular) initialized: fast.log
+[69443 - Suricata-Main] 2025-11-26 19:41:43 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[69443 - Suricata-Main] 2025-11-26 19:41:43 Info: logopenfile: stats output device (regular) initialized: stats.log
+[69443 - Suricata-Main] 2025-11-26 19:41:43 Info: detect: 6 rule files processed. 158 rules successfully loaded, 0 rules failed, 0 rules skipped
+[69443 - Suricata-Main] 2025-11-26 19:41:43 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[69443 - Suricata-Main] 2025-11-26 19:41:43 Info: detect: 158 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 98 inspect application layer, 0 are decoder event only
+[69443 - Suricata-Main] 2025-11-26 19:41:43 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[69443 - Suricata-Main] 2025-11-26 19:41:43 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[69443 - Suricata-Main] 2025-11-26 19:41:43 Info: runmodes: wlan0: creating 20 threads
+[69445 - W#01-wlan0] 2025-11-26 19:41:43 Info: ioctl: wlan0: MTU 1500
+[69443 - Suricata-Main] 2025-11-26 19:41:44 Notice: threads: Threads created -> W: 20 FM: 1 FR: 1   Engine started.
+[69443 - Suricata-Main] 2025-11-26 19:49:45 Notice: suricata: Signal Received.  Stopping engine.
+[69443 - Suricata-Main] 2025-11-26 19:49:45 Info: suricata: time elapsed 482.139s
+[69443 - Suricata-Main] 2025-11-26 19:49:46 Info: counters: Alerts: 9
+[69443 - Suricata-Main] 2025-11-26 19:49:46 Notice: device: wlan0: packets: 14422, drops: 20 (0.14%), invalid chksum: 0
+[74057 - Suricata-Main] 2025-11-26 19:51:41 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[74057 - Suricata-Main] 2025-11-26 19:51:41 Info: cpu: CPUs/cores online: 20
+[74057 - Suricata-Main] 2025-11-26 19:51:41 Info: suricata: Setting engine mode to IDS mode by default
+[74057 - Suricata-Main] 2025-11-26 19:51:41 Info: exception-policy: master exception-policy set to: auto
+[74057 - Suricata-Main] 2025-11-26 19:51:41 Info: suricata: Preparing unexpected signal handling
+[74057 - Suricata-Main] 2025-11-26 19:51:41 Info: log-pcap: Using log dir /home/rishit/Desktop/IDS/pcaps
+[74057 - Suricata-Main] 2025-11-26 19:51:41 Info: log-pcap: Selected pcap-log compression method: none
+[74057 - Suricata-Main] 2025-11-26 19:51:41 Info: log-pcap: Selected pcap-log conditional logging: all
+[74057 - Suricata-Main] 2025-11-26 19:51:41 Info: log-pcap: using normal logging
+[74057 - Suricata-Main] 2025-11-26 19:51:41 Info: logopenfile: fast output device (regular) initialized: fast.log
+[74057 - Suricata-Main] 2025-11-26 19:51:41 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[74057 - Suricata-Main] 2025-11-26 19:51:41 Info: logopenfile: stats output device (regular) initialized: stats.log
+[74057 - Suricata-Main] 2025-11-26 19:51:41 Info: detect: 6 rule files processed. 158 rules successfully loaded, 0 rules failed, 0 rules skipped
+[74057 - Suricata-Main] 2025-11-26 19:51:41 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[74057 - Suricata-Main] 2025-11-26 19:51:41 Info: detect: 158 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 98 inspect application layer, 0 are decoder event only
+[74057 - Suricata-Main] 2025-11-26 19:51:41 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[74057 - Suricata-Main] 2025-11-26 19:51:41 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[74057 - Suricata-Main] 2025-11-26 19:51:41 Info: runmodes: wlan0: creating 20 threads
+[74059 - W#01-wlan0] 2025-11-26 19:51:41 Info: ioctl: wlan0: MTU 1500
+[74057 - Suricata-Main] 2025-11-26 19:51:42 Notice: threads: Threads created -> W: 20 FM: 1 FR: 1   Engine started.
+[74057 - Suricata-Main] 2025-11-26 19:52:07 Notice: suricata: Signal Received.  Stopping engine.
+[74057 - Suricata-Main] 2025-11-26 19:52:08 Info: suricata: time elapsed 26.897s
+[74057 - Suricata-Main] 2025-11-26 19:52:09 Info: counters: Alerts: 0
+[74057 - Suricata-Main] 2025-11-26 19:52:09 Notice: device: wlan0: packets: 6, drops: 0 (0.00%), invalid chksum: 0
+[77379 - Suricata-Main] 2025-11-26 20:00:07 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[77379 - Suricata-Main] 2025-11-26 20:00:07 Info: cpu: CPUs/cores online: 20
+[77379 - Suricata-Main] 2025-11-26 20:00:07 Info: suricata: Setting engine mode to IDS mode by default
+[77379 - Suricata-Main] 2025-11-26 20:00:07 Info: exception-policy: master exception-policy set to: auto
+[77379 - Suricata-Main] 2025-11-26 20:00:07 Info: suricata: Preparing unexpected signal handling
+[77379 - Suricata-Main] 2025-11-26 20:00:07 Info: log-pcap: Using log dir /home/rishit/Desktop/IDS/pcaps
+[77379 - Suricata-Main] 2025-11-26 20:00:07 Info: log-pcap: Selected pcap-log compression method: none
+[77379 - Suricata-Main] 2025-11-26 20:00:07 Info: log-pcap: Selected pcap-log conditional logging: all
+[77379 - Suricata-Main] 2025-11-26 20:00:07 Info: log-pcap: using normal logging
+[77379 - Suricata-Main] 2025-11-26 20:00:07 Info: logopenfile: fast output device (regular) initialized: fast.log
+[77379 - Suricata-Main] 2025-11-26 20:00:07 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[77379 - Suricata-Main] 2025-11-26 20:00:07 Info: logopenfile: stats output device (regular) initialized: stats.log
+[77379 - Suricata-Main] 2025-11-26 20:00:07 Info: detect: 6 rule files processed. 158 rules successfully loaded, 0 rules failed, 0 rules skipped
+[77379 - Suricata-Main] 2025-11-26 20:00:07 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[77379 - Suricata-Main] 2025-11-26 20:00:07 Info: detect: 158 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 98 inspect application layer, 0 are decoder event only
+[77379 - Suricata-Main] 2025-11-26 20:00:07 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[77379 - Suricata-Main] 2025-11-26 20:00:07 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[77379 - Suricata-Main] 2025-11-26 20:00:07 Info: runmodes: wlan0: creating 20 threads
+[77381 - W#01-wlan0] 2025-11-26 20:00:07 Info: ioctl: wlan0: MTU 1500
+[77379 - Suricata-Main] 2025-11-26 20:00:08 Notice: threads: Threads created -> W: 20 FM: 1 FR: 1   Engine started.
+[77379 - Suricata-Main] 2025-11-26 20:01:23 Notice: suricata: Signal Received.  Stopping engine.
+[77379 - Suricata-Main] 2025-11-26 20:01:24 Info: suricata: time elapsed 76.534s
+[77379 - Suricata-Main] 2025-11-26 20:01:25 Info: counters: Alerts: 0
+[77379 - Suricata-Main] 2025-11-26 20:01:25 Notice: device: wlan0: packets: 674, drops: 9 (1.34%), invalid chksum: 0
+[78169 - Suricata-Main] 2025-11-26 20:01:52 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[78169 - Suricata-Main] 2025-11-26 20:01:52 Info: cpu: CPUs/cores online: 20
+[78169 - Suricata-Main] 2025-11-26 20:01:52 Info: suricata: Running suricata under test mode
+[78169 - Suricata-Main] 2025-11-26 20:01:52 Info: suricata: Setting engine mode to IDS mode by default
+[78169 - Suricata-Main] 2025-11-26 20:01:52 Info: exception-policy: master exception-policy set to: auto
+[78169 - Suricata-Main] 2025-11-26 20:01:52 Info: suricata: Preparing unexpected signal handling
+[78169 - Suricata-Main] 2025-11-26 20:01:52 Info: log-pcap: Using log dir /home/rishit/Desktop/IDS/pcaps
+[78169 - Suricata-Main] 2025-11-26 20:01:52 Info: log-pcap: Selected pcap-log compression method: none
+[78169 - Suricata-Main] 2025-11-26 20:01:52 Info: log-pcap: Selected pcap-log conditional logging: all
+[78169 - Suricata-Main] 2025-11-26 20:01:52 Info: log-pcap: using normal logging
+[78169 - Suricata-Main] 2025-11-26 20:01:52 Info: logopenfile: fast output device (regular) initialized: fast.log
+[78169 - Suricata-Main] 2025-11-26 20:01:52 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[78169 - Suricata-Main] 2025-11-26 20:01:52 Info: logopenfile: stats output device (regular) initialized: stats.log
+[78169 - Suricata-Main] 2025-11-26 20:01:52 Info: detect: 6 rule files processed. 158 rules successfully loaded, 0 rules failed, 0 rules skipped
+[78169 - Suricata-Main] 2025-11-26 20:01:52 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[78169 - Suricata-Main] 2025-11-26 20:01:52 Info: detect: 158 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 98 inspect application layer, 0 are decoder event only
+[78169 - Suricata-Main] 2025-11-26 20:01:52 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[78169 - Suricata-Main] 2025-11-26 20:01:52 Notice: suricata: Configuration provided was successfully loaded. Exiting.
+[81093 - Suricata-Main] 2025-11-26 20:09:01 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[81093 - Suricata-Main] 2025-11-26 20:09:01 Info: cpu: CPUs/cores online: 20
+[81093 - Suricata-Main] 2025-11-26 20:09:01 Info: suricata: Setting engine mode to IDS mode by default
+[81093 - Suricata-Main] 2025-11-26 20:09:01 Info: exception-policy: master exception-policy set to: auto
+[81093 - Suricata-Main] 2025-11-26 20:09:01 Info: suricata: Preparing unexpected signal handling
+[81093 - Suricata-Main] 2025-11-26 20:09:01 Info: log-pcap: Using log dir /home/rishit/Desktop/IDS/pcaps
+[81093 - Suricata-Main] 2025-11-26 20:09:01 Info: log-pcap: Selected pcap-log compression method: none
+[81093 - Suricata-Main] 2025-11-26 20:09:01 Info: log-pcap: Selected pcap-log conditional logging: all
+[81093 - Suricata-Main] 2025-11-26 20:09:01 Info: log-pcap: using normal logging
+[81093 - Suricata-Main] 2025-11-26 20:09:01 Info: logopenfile: fast output device (regular) initialized: fast.log
+[81093 - Suricata-Main] 2025-11-26 20:09:01 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[81093 - Suricata-Main] 2025-11-26 20:09:01 Info: logopenfile: stats output device (regular) initialized: stats.log
+[81093 - Suricata-Main] 2025-11-26 20:09:01 Info: detect: 6 rule files processed. 158 rules successfully loaded, 0 rules failed, 0 rules skipped
+[81093 - Suricata-Main] 2025-11-26 20:09:01 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[81093 - Suricata-Main] 2025-11-26 20:09:01 Info: detect: 158 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 98 inspect application layer, 0 are decoder event only
+[81093 - Suricata-Main] 2025-11-26 20:09:01 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[81093 - Suricata-Main] 2025-11-26 20:09:01 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[81093 - Suricata-Main] 2025-11-26 20:09:01 Info: runmodes: wlan0: creating 20 threads
+[81099 - W#01-wlan0] 2025-11-26 20:09:01 Info: ioctl: wlan0: MTU 1500
+[81093 - Suricata-Main] 2025-11-26 20:09:01 Notice: threads: Threads created -> W: 20 FM: 1 FR: 1   Engine started.
+[81093 - Suricata-Main] 2025-11-26 20:09:25 Notice: suricata: Signal Received.  Stopping engine.
+[81093 - Suricata-Main] 2025-11-26 20:09:26 Info: suricata: time elapsed 25.003s
+[81093 - Suricata-Main] 2025-11-26 20:09:27 Info: counters: Alerts: 0
+[81093 - Suricata-Main] 2025-11-26 20:09:27 Notice: device: wlan0: packets: 174, drops: 0 (0.00%), invalid chksum: 0
+[81357 - Suricata-Main] 2025-11-26 20:09:29 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[81357 - Suricata-Main] 2025-11-26 20:09:29 Info: cpu: CPUs/cores online: 20
+[81357 - Suricata-Main] 2025-11-26 20:09:29 Info: suricata: Setting engine mode to IDS mode by default
+[81357 - Suricata-Main] 2025-11-26 20:09:29 Info: exception-policy: master exception-policy set to: auto
+[81357 - Suricata-Main] 2025-11-26 20:09:30 Info: suricata: Preparing unexpected signal handling
+[81357 - Suricata-Main] 2025-11-26 20:09:30 Info: log-pcap: Using log dir /home/rishit/Desktop/IDS/pcaps
+[81357 - Suricata-Main] 2025-11-26 20:09:30 Info: log-pcap: Selected pcap-log compression method: none
+[81357 - Suricata-Main] 2025-11-26 20:09:30 Info: log-pcap: Selected pcap-log conditional logging: all
+[81357 - Suricata-Main] 2025-11-26 20:09:30 Info: log-pcap: using normal logging
+[81357 - Suricata-Main] 2025-11-26 20:09:30 Info: logopenfile: fast output device (regular) initialized: fast.log
+[81357 - Suricata-Main] 2025-11-26 20:09:30 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[81357 - Suricata-Main] 2025-11-26 20:09:30 Info: logopenfile: stats output device (regular) initialized: stats.log
+[81357 - Suricata-Main] 2025-11-26 20:09:30 Info: detect: 6 rule files processed. 158 rules successfully loaded, 0 rules failed, 0 rules skipped
+[81357 - Suricata-Main] 2025-11-26 20:09:30 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[81357 - Suricata-Main] 2025-11-26 20:09:30 Info: detect: 158 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 98 inspect application layer, 0 are decoder event only
+[81357 - Suricata-Main] 2025-11-26 20:09:30 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[81357 - Suricata-Main] 2025-11-26 20:09:30 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[81357 - Suricata-Main] 2025-11-26 20:09:30 Info: runmodes: wlan0: creating 20 threads
+[81361 - W#01-wlan0] 2025-11-26 20:09:30 Info: ioctl: wlan0: MTU 1500
+[81357 - Suricata-Main] 2025-11-26 20:09:31 Notice: threads: Threads created -> W: 20 FM: 1 FR: 1   Engine started.
+[81357 - Suricata-Main] 2025-11-26 20:09:34 Notice: suricata: Signal Received.  Stopping engine.
+[81357 - Suricata-Main] 2025-11-26 20:09:35 Info: suricata: time elapsed 5.184s
+[81357 - Suricata-Main] 2025-11-26 20:09:36 Info: counters: Alerts: 1
+[81357 - Suricata-Main] 2025-11-26 20:09:36 Notice: device: wlan0: packets: 10, drops: 0 (0.00%), invalid chksum: 0
+[83642 - Suricata-Main] 2025-11-26 20:14:54 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[83642 - Suricata-Main] 2025-11-26 20:14:54 Info: cpu: CPUs/cores online: 20
+[83642 - Suricata-Main] 2025-11-26 20:14:54 Info: suricata: Setting engine mode to IDS mode by default
+[83642 - Suricata-Main] 2025-11-26 20:14:54 Info: exception-policy: master exception-policy set to: auto
+[83642 - Suricata-Main] 2025-11-26 20:14:54 Info: suricata: Preparing unexpected signal handling
+[83642 - Suricata-Main] 2025-11-26 20:14:54 Info: log-pcap: Using log dir /home/rishit/Desktop/IDS/pcaps
+[83642 - Suricata-Main] 2025-11-26 20:14:54 Info: log-pcap: Selected pcap-log compression method: none
+[83642 - Suricata-Main] 2025-11-26 20:14:54 Info: log-pcap: Selected pcap-log conditional logging: all
+[83642 - Suricata-Main] 2025-11-26 20:14:54 Info: log-pcap: using normal logging
+[83642 - Suricata-Main] 2025-11-26 20:14:54 Info: logopenfile: fast output device (regular) initialized: fast.log
+[83642 - Suricata-Main] 2025-11-26 20:14:54 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[83642 - Suricata-Main] 2025-11-26 20:14:54 Info: logopenfile: stats output device (regular) initialized: stats.log
+[83642 - Suricata-Main] 2025-11-26 20:14:54 Info: detect: 6 rule files processed. 158 rules successfully loaded, 0 rules failed, 0 rules skipped
+[83642 - Suricata-Main] 2025-11-26 20:14:54 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[83642 - Suricata-Main] 2025-11-26 20:14:54 Info: detect: 158 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 98 inspect application layer, 0 are decoder event only
+[83642 - Suricata-Main] 2025-11-26 20:14:54 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[83642 - Suricata-Main] 2025-11-26 20:14:54 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[83642 - Suricata-Main] 2025-11-26 20:14:54 Info: runmodes: wlan0: creating 20 threads
+[83644 - W#01-wlan0] 2025-11-26 20:14:54 Info: ioctl: wlan0: MTU 1500
+[83642 - Suricata-Main] 2025-11-26 20:14:54 Notice: threads: Threads created -> W: 20 FM: 1 FR: 1   Engine started.
+[83642 - Suricata-Main] 2025-11-26 20:15:08 Notice: suricata: Signal Received.  Stopping engine.
+[83642 - Suricata-Main] 2025-11-26 20:15:09 Info: suricata: time elapsed 15.011s
+[83642 - Suricata-Main] 2025-11-26 20:15:10 Info: counters: Alerts: 0
+[83642 - Suricata-Main] 2025-11-26 20:15:10 Notice: device: wlan0: packets: 21, drops: 0 (0.00%), invalid chksum: 0
+[84443 - Suricata-Main] 2025-11-26 20:16:49 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[84443 - Suricata-Main] 2025-11-26 20:16:49 Info: cpu: CPUs/cores online: 20
+[84443 - Suricata-Main] 2025-11-26 20:16:49 Info: suricata: Setting engine mode to IDS mode by default
+[84443 - Suricata-Main] 2025-11-26 20:16:49 Info: exception-policy: master exception-policy set to: auto
+[84443 - Suricata-Main] 2025-11-26 20:16:49 Info: suricata: Preparing unexpected signal handling
+[84443 - Suricata-Main] 2025-11-26 20:16:49 Info: log-pcap: Using log dir /home/rishit/Desktop/IDS/pcaps
+[84443 - Suricata-Main] 2025-11-26 20:16:49 Info: log-pcap: Selected pcap-log compression method: none
+[84443 - Suricata-Main] 2025-11-26 20:16:49 Info: log-pcap: Selected pcap-log conditional logging: all
+[84443 - Suricata-Main] 2025-11-26 20:16:49 Info: log-pcap: using normal logging
+[84443 - Suricata-Main] 2025-11-26 20:16:49 Info: logopenfile: fast output device (regular) initialized: fast.log
+[84443 - Suricata-Main] 2025-11-26 20:16:49 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[84443 - Suricata-Main] 2025-11-26 20:16:49 Info: logopenfile: stats output device (regular) initialized: stats.log
+[84443 - Suricata-Main] 2025-11-26 20:16:49 Info: detect: 6 rule files processed. 158 rules successfully loaded, 0 rules failed, 0 rules skipped
+[84443 - Suricata-Main] 2025-11-26 20:16:49 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[84443 - Suricata-Main] 2025-11-26 20:16:49 Info: detect: 158 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 98 inspect application layer, 0 are decoder event only
+[84443 - Suricata-Main] 2025-11-26 20:16:49 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[84443 - Suricata-Main] 2025-11-26 20:16:49 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[84443 - Suricata-Main] 2025-11-26 20:16:49 Info: runmodes: wlan0: creating 20 threads
+[84445 - W#01-wlan0] 2025-11-26 20:16:49 Info: ioctl: wlan0: MTU 1500
+[84443 - Suricata-Main] 2025-11-26 20:16:50 Notice: threads: Threads created -> W: 20 FM: 1 FR: 1   Engine started.
+[84443 - Suricata-Main] 2025-11-26 20:16:59 Notice: suricata: Signal Received.  Stopping engine.
+[84443 - Suricata-Main] 2025-11-26 20:17:00 Info: suricata: time elapsed 11.075s
+[84443 - Suricata-Main] 2025-11-26 20:17:01 Info: counters: Alerts: 1
+[84443 - Suricata-Main] 2025-11-26 20:17:01 Notice: device: wlan0: packets: 10, drops: 0 (0.00%), invalid chksum: 0
+[85271 - Suricata-Main] 2025-11-26 20:18:42 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[85271 - Suricata-Main] 2025-11-26 20:18:42 Info: cpu: CPUs/cores online: 20
+[85271 - Suricata-Main] 2025-11-26 20:18:42 Info: suricata: Setting engine mode to IDS mode by default
+[85271 - Suricata-Main] 2025-11-26 20:18:42 Info: exception-policy: master exception-policy set to: auto
+[85271 - Suricata-Main] 2025-11-26 20:18:42 Info: suricata: Preparing unexpected signal handling
+[85271 - Suricata-Main] 2025-11-26 20:18:42 Info: log-pcap: Using log dir /home/rishit/Desktop/IDS/pcaps
+[85271 - Suricata-Main] 2025-11-26 20:18:42 Info: log-pcap: Selected pcap-log compression method: none
+[85271 - Suricata-Main] 2025-11-26 20:18:42 Info: log-pcap: Selected pcap-log conditional logging: all
+[85271 - Suricata-Main] 2025-11-26 20:18:42 Info: log-pcap: using normal logging
+[85271 - Suricata-Main] 2025-11-26 20:18:42 Info: logopenfile: fast output device (regular) initialized: fast.log
+[85271 - Suricata-Main] 2025-11-26 20:18:42 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[85271 - Suricata-Main] 2025-11-26 20:18:42 Info: logopenfile: stats output device (regular) initialized: stats.log
+[85271 - Suricata-Main] 2025-11-26 20:18:42 Info: detect: 6 rule files processed. 158 rules successfully loaded, 0 rules failed, 0 rules skipped
+[85271 - Suricata-Main] 2025-11-26 20:18:42 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[85271 - Suricata-Main] 2025-11-26 20:18:42 Info: detect: 158 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 98 inspect application layer, 0 are decoder event only
+[85271 - Suricata-Main] 2025-11-26 20:18:42 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[85271 - Suricata-Main] 2025-11-26 20:18:42 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[85271 - Suricata-Main] 2025-11-26 20:18:42 Info: runmodes: wlan0: creating 20 threads
+[85273 - W#01-wlan0] 2025-11-26 20:18:42 Info: ioctl: wlan0: MTU 1500
+[85271 - Suricata-Main] 2025-11-26 20:18:43 Notice: threads: Threads created -> W: 20 FM: 1 FR: 1   Engine started.
+[85271 - Suricata-Main] 2025-11-26 20:18:46 Notice: suricata: Signal Received.  Stopping engine.
+[85271 - Suricata-Main] 2025-11-26 20:18:46 Info: suricata: time elapsed 4.184s
+[85271 - Suricata-Main] 2025-11-26 20:18:47 Info: counters: Alerts: 0
+[85271 - Suricata-Main] 2025-11-26 20:18:47 Notice: device: wlan0: packets: 0, drops: 0 (0.00%), invalid chksum: 0
+[86637 - Suricata-Main] 2025-11-26 20:22:11 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[86637 - Suricata-Main] 2025-11-26 20:22:11 Info: cpu: CPUs/cores online: 20
+[86637 - Suricata-Main] 2025-11-26 20:22:11 Info: suricata: Setting engine mode to IDS mode by default
+[86637 - Suricata-Main] 2025-11-26 20:22:11 Info: exception-policy: master exception-policy set to: auto
+[86637 - Suricata-Main] 2025-11-26 20:22:11 Info: suricata: Preparing unexpected signal handling
+[86637 - Suricata-Main] 2025-11-26 20:22:11 Info: log-pcap: Using log dir /home/rishit/Desktop/IDS/pcaps
+[86637 - Suricata-Main] 2025-11-26 20:22:11 Info: log-pcap: Selected pcap-log compression method: none
+[86637 - Suricata-Main] 2025-11-26 20:22:11 Info: log-pcap: Selected pcap-log conditional logging: all
+[86637 - Suricata-Main] 2025-11-26 20:22:11 Info: log-pcap: using normal logging
+[86637 - Suricata-Main] 2025-11-26 20:22:11 Info: logopenfile: fast output device (regular) initialized: fast.log
+[86637 - Suricata-Main] 2025-11-26 20:22:11 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[86637 - Suricata-Main] 2025-11-26 20:22:11 Info: logopenfile: stats output device (regular) initialized: stats.log
+[86637 - Suricata-Main] 2025-11-26 20:22:11 Info: detect: 6 rule files processed. 158 rules successfully loaded, 0 rules failed, 0 rules skipped
+[86637 - Suricata-Main] 2025-11-26 20:22:11 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[86637 - Suricata-Main] 2025-11-26 20:22:11 Info: detect: 158 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 98 inspect application layer, 0 are decoder event only
+[86637 - Suricata-Main] 2025-11-26 20:22:11 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[86637 - Suricata-Main] 2025-11-26 20:22:11 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[86637 - Suricata-Main] 2025-11-26 20:22:11 Info: runmodes: wlan0: creating 20 threads
+[86639 - W#01-wlan0] 2025-11-26 20:22:11 Info: ioctl: wlan0: MTU 1500
+[86637 - Suricata-Main] 2025-11-26 20:22:12 Notice: threads: Threads created -> W: 20 FM: 1 FR: 1   Engine started.
+[86637 - Suricata-Main] 2025-11-26 20:37:37 Notice: suricata: Signal Received.  Stopping engine.
+[86637 - Suricata-Main] 2025-11-26 20:37:37 Info: suricata: time elapsed 925.822s
+[86637 - Suricata-Main] 2025-11-26 20:37:38 Info: counters: Alerts: 32
+[86637 - Suricata-Main] 2025-11-26 20:37:38 Notice: device: wlan0: packets: 12087, drops: 13 (0.11%), invalid chksum: 0
+[95683 - Suricata-Main] 2025-11-26 20:45:01 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[95683 - Suricata-Main] 2025-11-26 20:45:01 Info: cpu: CPUs/cores online: 20
+[95683 - Suricata-Main] 2025-11-26 20:45:01 Info: suricata: Setting engine mode to IDS mode by default
+[95683 - Suricata-Main] 2025-11-26 20:45:01 Info: exception-policy: master exception-policy set to: auto
+[95683 - Suricata-Main] 2025-11-26 20:45:01 Info: suricata: Preparing unexpected signal handling
+[95683 - Suricata-Main] 2025-11-26 20:45:01 Info: log-pcap: Using log dir /home/rishit/Desktop/IDS/pcaps
+[95683 - Suricata-Main] 2025-11-26 20:45:01 Info: log-pcap: Selected pcap-log compression method: none
+[95683 - Suricata-Main] 2025-11-26 20:45:01 Info: log-pcap: Selected pcap-log conditional logging: all
+[95683 - Suricata-Main] 2025-11-26 20:45:01 Info: log-pcap: using normal logging
+[95683 - Suricata-Main] 2025-11-26 20:45:01 Info: logopenfile: fast output device (regular) initialized: fast.log
+[95683 - Suricata-Main] 2025-11-26 20:45:01 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[95683 - Suricata-Main] 2025-11-26 20:45:01 Info: logopenfile: stats output device (regular) initialized: stats.log
+[95683 - Suricata-Main] 2025-11-26 20:45:01 Info: detect: 6 rule files processed. 158 rules successfully loaded, 0 rules failed, 0 rules skipped
+[95683 - Suricata-Main] 2025-11-26 20:45:01 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[95683 - Suricata-Main] 2025-11-26 20:45:01 Info: detect: 158 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 98 inspect application layer, 0 are decoder event only
+[95683 - Suricata-Main] 2025-11-26 20:45:01 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[95683 - Suricata-Main] 2025-11-26 20:45:01 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[95683 - Suricata-Main] 2025-11-26 20:45:01 Info: runmodes: wlan0: creating 20 threads
+[95685 - W#01-wlan0] 2025-11-26 20:45:01 Info: ioctl: wlan0: MTU 1500
+[95683 - Suricata-Main] 2025-11-26 20:45:02 Notice: threads: Threads created -> W: 20 FM: 1 FR: 1   Engine started.
+[95683 - Suricata-Main] 2025-11-26 20:53:39 Notice: suricata: Signal Received.  Stopping engine.
+[95683 - Suricata-Main] 2025-11-26 20:53:39 Info: suricata: time elapsed 517.559s
+[95683 - Suricata-Main] 2025-11-26 20:53:40 Info: counters: Alerts: 12
+[95683 - Suricata-Main] 2025-11-26 20:53:40 Notice: device: wlan0: packets: 3992, drops: 1 (0.03%), invalid chksum: 0
+[103015 - Suricata-Main] 2025-11-26 21:03:50 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[103015 - Suricata-Main] 2025-11-26 21:03:50 Info: cpu: CPUs/cores online: 20
+[103015 - Suricata-Main] 2025-11-26 21:03:50 Info: suricata: Setting engine mode to IDS mode by default
+[103015 - Suricata-Main] 2025-11-26 21:03:50 Info: exception-policy: master exception-policy set to: auto
+[103015 - Suricata-Main] 2025-11-26 21:03:50 Info: suricata: Preparing unexpected signal handling
+[103015 - Suricata-Main] 2025-11-26 21:03:50 Info: log-pcap: Using log dir /home/rishit/Desktop/IDS/pcaps
+[103015 - Suricata-Main] 2025-11-26 21:03:50 Info: log-pcap: Selected pcap-log compression method: none
+[103015 - Suricata-Main] 2025-11-26 21:03:50 Info: log-pcap: Selected pcap-log conditional logging: all
+[103015 - Suricata-Main] 2025-11-26 21:03:50 Info: log-pcap: using normal logging
+[103015 - Suricata-Main] 2025-11-26 21:03:50 Info: logopenfile: fast output device (regular) initialized: fast.log
+[103015 - Suricata-Main] 2025-11-26 21:03:50 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[103015 - Suricata-Main] 2025-11-26 21:03:50 Info: logopenfile: stats output device (regular) initialized: stats.log
+[103015 - Suricata-Main] 2025-11-26 21:03:50 Info: detect: 6 rule files processed. 158 rules successfully loaded, 0 rules failed, 0 rules skipped
+[103015 - Suricata-Main] 2025-11-26 21:03:50 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[103015 - Suricata-Main] 2025-11-26 21:03:50 Info: detect: 158 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 98 inspect application layer, 0 are decoder event only
+[103015 - Suricata-Main] 2025-11-26 21:03:50 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[103015 - Suricata-Main] 2025-11-26 21:03:50 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[103015 - Suricata-Main] 2025-11-26 21:03:50 Info: runmodes: wlan0: creating 20 threads
+[103017 - W#01-wlan0] 2025-11-26 21:03:50 Info: ioctl: wlan0: MTU 1500
+[103015 - Suricata-Main] 2025-11-26 21:03:51 Notice: threads: Threads created -> W: 20 FM: 1 FR: 1   Engine started.
+[12532 - Suricata-Main] 2025-11-27 08:20:55 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[12532 - Suricata-Main] 2025-11-27 08:20:55 Info: cpu: CPUs/cores online: 20
+[12532 - Suricata-Main] 2025-11-27 08:20:55 Info: suricata: Setting engine mode to IDS mode by default
+[12532 - Suricata-Main] 2025-11-27 08:20:55 Info: exception-policy: master exception-policy set to: auto
+[12532 - Suricata-Main] 2025-11-27 08:20:55 Info: suricata: Preparing unexpected signal handling
+[12532 - Suricata-Main] 2025-11-27 08:20:55 Info: log-pcap: Using log dir /home/rishit/Desktop/IDS/pcaps
+[12532 - Suricata-Main] 2025-11-27 08:20:55 Info: log-pcap: Selected pcap-log compression method: none
+[12532 - Suricata-Main] 2025-11-27 08:20:55 Info: log-pcap: Selected pcap-log conditional logging: all
+[12532 - Suricata-Main] 2025-11-27 08:20:55 Info: log-pcap: using normal logging
+[12532 - Suricata-Main] 2025-11-27 08:20:55 Info: logopenfile: fast output device (regular) initialized: fast.log
+[12532 - Suricata-Main] 2025-11-27 08:20:55 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[12532 - Suricata-Main] 2025-11-27 08:20:55 Info: logopenfile: stats output device (regular) initialized: stats.log
+[12532 - Suricata-Main] 2025-11-27 08:20:55 Info: detect: 6 rule files processed. 158 rules successfully loaded, 0 rules failed, 0 rules skipped
+[12532 - Suricata-Main] 2025-11-27 08:20:55 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[12532 - Suricata-Main] 2025-11-27 08:20:55 Info: detect: 158 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 98 inspect application layer, 0 are decoder event only
+[12532 - Suricata-Main] 2025-11-27 08:20:55 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[12532 - Suricata-Main] 2025-11-27 08:20:55 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[12532 - Suricata-Main] 2025-11-27 08:20:55 Info: runmodes: wlan0: creating 20 threads
+[12534 - W#01-wlan0] 2025-11-27 08:20:55 Info: ioctl: wlan0: MTU 1500
+[12532 - Suricata-Main] 2025-11-27 08:20:56 Notice: threads: Threads created -> W: 20 FM: 1 FR: 1   Engine started.
+[12532 - Suricata-Main] 2025-11-27 08:30:22 Notice: suricata: Signal Received.  Stopping engine.
+[12532 - Suricata-Main] 2025-11-27 08:30:22 Info: suricata: time elapsed 567.360s
+[12532 - Suricata-Main] 2025-11-27 08:30:23 Info: counters: Alerts: 16
+[12532 - Suricata-Main] 2025-11-27 08:30:23 Notice: device: wlan0: packets: 7898, drops: 4 (0.05%), invalid chksum: 0
+[19026 - Suricata-Main] 2025-11-27 08:37:04 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[19026 - Suricata-Main] 2025-11-27 08:37:04 Info: cpu: CPUs/cores online: 20
+[19026 - Suricata-Main] 2025-11-27 08:37:04 Info: suricata: Setting engine mode to IDS mode by default
+[19026 - Suricata-Main] 2025-11-27 08:37:04 Info: exception-policy: master exception-policy set to: auto
+[19026 - Suricata-Main] 2025-11-27 08:37:04 Info: suricata: Preparing unexpected signal handling
+[19026 - Suricata-Main] 2025-11-27 08:37:04 Info: log-pcap: Using log dir /home/rishit/Desktop/IDS/pcaps
+[19026 - Suricata-Main] 2025-11-27 08:37:04 Info: log-pcap: Selected pcap-log compression method: none
+[19026 - Suricata-Main] 2025-11-27 08:37:04 Info: log-pcap: Selected pcap-log conditional logging: all
+[19026 - Suricata-Main] 2025-11-27 08:37:04 Info: log-pcap: using normal logging
+[19026 - Suricata-Main] 2025-11-27 08:37:04 Info: logopenfile: fast output device (regular) initialized: fast.log
+[19026 - Suricata-Main] 2025-11-27 08:37:04 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[19026 - Suricata-Main] 2025-11-27 08:37:04 Info: logopenfile: stats output device (regular) initialized: stats.log
+[19026 - Suricata-Main] 2025-11-27 08:37:04 Info: detect: 6 rule files processed. 158 rules successfully loaded, 0 rules failed, 0 rules skipped
+[19026 - Suricata-Main] 2025-11-27 08:37:04 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[19026 - Suricata-Main] 2025-11-27 08:37:04 Info: detect: 158 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 98 inspect application layer, 0 are decoder event only
+[19026 - Suricata-Main] 2025-11-27 08:37:04 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[19026 - Suricata-Main] 2025-11-27 08:37:04 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[19026 - Suricata-Main] 2025-11-27 08:37:05 Info: runmodes: wlan0: creating 20 threads
+[19028 - W#01-wlan0] 2025-11-27 08:37:05 Info: ioctl: wlan0: MTU 1500
+[19026 - Suricata-Main] 2025-11-27 08:37:05 Notice: threads: Threads created -> W: 20 FM: 1 FR: 1   Engine started.
+[20731 - Suricata-Main] 2025-11-27 08:41:16 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[20731 - Suricata-Main] 2025-11-27 08:41:16 Info: cpu: CPUs/cores online: 20
+[20731 - Suricata-Main] 2025-11-27 08:41:16 Info: suricata: Setting engine mode to IDS mode by default
+[20731 - Suricata-Main] 2025-11-27 08:41:16 Info: exception-policy: master exception-policy set to: auto
+[20731 - Suricata-Main] 2025-11-27 08:41:16 Info: suricata: Preparing unexpected signal handling
+[20731 - Suricata-Main] 2025-11-27 08:41:16 Info: log-pcap: Using log dir /home/rishit/Desktop/IDS/pcaps
+[20731 - Suricata-Main] 2025-11-27 08:41:16 Info: log-pcap: Selected pcap-log compression method: none
+[20731 - Suricata-Main] 2025-11-27 08:41:16 Info: log-pcap: Selected pcap-log conditional logging: all
+[20731 - Suricata-Main] 2025-11-27 08:41:16 Info: log-pcap: using normal logging
+[20731 - Suricata-Main] 2025-11-27 08:41:16 Info: logopenfile: fast output device (regular) initialized: fast.log
+[20731 - Suricata-Main] 2025-11-27 08:41:16 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[20731 - Suricata-Main] 2025-11-27 08:41:16 Info: logopenfile: stats output device (regular) initialized: stats.log
+[20731 - Suricata-Main] 2025-11-27 08:41:16 Info: detect: 6 rule files processed. 158 rules successfully loaded, 0 rules failed, 0 rules skipped
+[20731 - Suricata-Main] 2025-11-27 08:41:16 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[20731 - Suricata-Main] 2025-11-27 08:41:16 Info: detect: 158 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 98 inspect application layer, 0 are decoder event only
+[20731 - Suricata-Main] 2025-11-27 08:41:16 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[20731 - Suricata-Main] 2025-11-27 08:41:16 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[20731 - Suricata-Main] 2025-11-27 08:41:16 Error: af-packet: fanout not supported by kernel: Kernel too old or cluster-id 1 already in use.
+[20731 - Suricata-Main] 2025-11-27 08:41:16 Info: runmodes: wlan0: creating 1 thread
+[20733 - W#01-wlan0] 2025-11-27 08:41:16 Info: ioctl: wlan0: MTU 1500
+[20731 - Suricata-Main] 2025-11-27 08:41:16 Notice: threads: Threads created -> W: 1 FM: 1 FR: 1   Engine started.
+[20731 - Suricata-Main] 2025-11-27 08:44:40 Notice: suricata: Signal Received.  Stopping engine.
+[20731 - Suricata-Main] 2025-11-27 08:44:41 Info: suricata: time elapsed 205.265s
+[20731 - Suricata-Main] 2025-11-27 08:44:42 Info: counters: Alerts: 6
+[20731 - Suricata-Main] 2025-11-27 08:44:42 Notice: device: wlan0: packets: 3868, drops: 0 (0.00%), invalid chksum: 0
+[23285 - Suricata-Main] 2025-11-27 08:47:15 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[23285 - Suricata-Main] 2025-11-27 08:47:15 Info: cpu: CPUs/cores online: 20
+[23285 - Suricata-Main] 2025-11-27 08:47:15 Info: suricata: Setting engine mode to IDS mode by default
+[23285 - Suricata-Main] 2025-11-27 08:47:15 Info: exception-policy: master exception-policy set to: auto
+[23285 - Suricata-Main] 2025-11-27 08:47:15 Info: suricata: Preparing unexpected signal handling
+[23285 - Suricata-Main] 2025-11-27 08:47:15 Info: log-pcap: Using log dir /home/rishit/Desktop/IDS/pcaps
+[23285 - Suricata-Main] 2025-11-27 08:47:15 Info: log-pcap: Selected pcap-log compression method: none
+[23285 - Suricata-Main] 2025-11-27 08:47:15 Info: log-pcap: Selected pcap-log conditional logging: all
+[23285 - Suricata-Main] 2025-11-27 08:47:15 Info: log-pcap: using normal logging
+[23285 - Suricata-Main] 2025-11-27 08:47:15 Info: logopenfile: fast output device (regular) initialized: fast.log
+[23285 - Suricata-Main] 2025-11-27 08:47:15 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[23285 - Suricata-Main] 2025-11-27 08:47:15 Info: logopenfile: stats output device (regular) initialized: stats.log
+[23285 - Suricata-Main] 2025-11-27 08:47:15 Info: detect: 6 rule files processed. 158 rules successfully loaded, 0 rules failed, 0 rules skipped
+[23285 - Suricata-Main] 2025-11-27 08:47:15 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[23285 - Suricata-Main] 2025-11-27 08:47:15 Info: detect: 158 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 98 inspect application layer, 0 are decoder event only
+[23285 - Suricata-Main] 2025-11-27 08:47:15 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[23285 - Suricata-Main] 2025-11-27 08:47:15 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[23285 - Suricata-Main] 2025-11-27 08:47:15 Error: af-packet: fanout not supported by kernel: Kernel too old or cluster-id 1 already in use.
+[23285 - Suricata-Main] 2025-11-27 08:47:15 Info: runmodes: wlan0: creating 1 thread
+[23287 - W#01-wlan0] 2025-11-27 08:47:15 Info: ioctl: wlan0: MTU 1500
+[23285 - Suricata-Main] 2025-11-27 08:47:15 Notice: threads: Threads created -> W: 1 FM: 1 FR: 1   Engine started.
+[23313 - Suricata-Main] 2025-11-27 08:47:18 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[23313 - Suricata-Main] 2025-11-27 08:47:18 Info: cpu: CPUs/cores online: 20
+[23313 - Suricata-Main] 2025-11-27 08:47:18 Info: suricata: Setting engine mode to IDS mode by default
+[23313 - Suricata-Main] 2025-11-27 08:47:18 Info: exception-policy: master exception-policy set to: auto
+[23313 - Suricata-Main] 2025-11-27 08:47:18 Info: suricata: Preparing unexpected signal handling
+[23313 - Suricata-Main] 2025-11-27 08:47:18 Info: log-pcap: Using log dir /home/rishit/Desktop/IDS/pcaps
+[23313 - Suricata-Main] 2025-11-27 08:47:18 Info: log-pcap: Selected pcap-log compression method: none
+[23313 - Suricata-Main] 2025-11-27 08:47:18 Info: log-pcap: Selected pcap-log conditional logging: all
+[23313 - Suricata-Main] 2025-11-27 08:47:18 Info: log-pcap: using normal logging
+[23313 - Suricata-Main] 2025-11-27 08:47:18 Info: logopenfile: fast output device (regular) initialized: fast.log
+[23313 - Suricata-Main] 2025-11-27 08:47:18 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[23313 - Suricata-Main] 2025-11-27 08:47:18 Info: logopenfile: stats output device (regular) initialized: stats.log
+[23313 - Suricata-Main] 2025-11-27 08:47:18 Info: detect: 6 rule files processed. 158 rules successfully loaded, 0 rules failed, 0 rules skipped
+[23313 - Suricata-Main] 2025-11-27 08:47:18 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[23313 - Suricata-Main] 2025-11-27 08:47:18 Info: detect: 158 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 98 inspect application layer, 0 are decoder event only
+[23313 - Suricata-Main] 2025-11-27 08:47:18 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[23313 - Suricata-Main] 2025-11-27 08:47:18 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[23313 - Suricata-Main] 2025-11-27 08:47:18 Error: af-packet: fanout not supported by kernel: Kernel too old or cluster-id 1 already in use.
+[23313 - Suricata-Main] 2025-11-27 08:47:18 Info: runmodes: wlan0: creating 1 thread
+[23315 - W#01-wlan0] 2025-11-27 08:47:18 Info: ioctl: wlan0: MTU 1500
+[23313 - Suricata-Main] 2025-11-27 08:47:18 Notice: threads: Threads created -> W: 1 FM: 1 FR: 1   Engine started.
+[23285 - Suricata-Main] 2025-11-27 08:47:51 Notice: suricata: Signal Received.  Stopping engine.
+[23285 - Suricata-Main] 2025-11-27 08:47:52 Info: suricata: time elapsed 36.971s
+[23285 - Suricata-Main] 2025-11-27 08:47:53 Info: counters: Alerts: 2
+[23285 - Suricata-Main] 2025-11-27 08:47:53 Notice: device: wlan0: packets: 299, drops: 0 (0.00%), invalid chksum: 0
+[23313 - Suricata-Main] 2025-11-27 08:47:57 Notice: suricata: Signal Received.  Stopping engine.
+[23313 - Suricata-Main] 2025-11-27 08:47:57 Info: suricata: time elapsed 38.993s
+[23313 - Suricata-Main] 2025-11-27 08:47:58 Info: counters: Alerts: 2
+[23313 - Suricata-Main] 2025-11-27 08:47:58 Notice: device: wlan0: packets: 344, drops: 0 (0.00%), invalid chksum: 0
+[25093 - Suricata-Main] 2025-11-27 08:51:36 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[25093 - Suricata-Main] 2025-11-27 08:51:36 Info: cpu: CPUs/cores online: 20
+[25093 - Suricata-Main] 2025-11-27 08:51:36 Info: suricata: Setting engine mode to IDS mode by default
+[25093 - Suricata-Main] 2025-11-27 08:51:36 Info: exception-policy: master exception-policy set to: auto
+[25093 - Suricata-Main] 2025-11-27 08:51:36 Info: suricata: Preparing unexpected signal handling
+[25093 - Suricata-Main] 2025-11-27 08:51:36 Info: log-pcap: Using log dir /home/rishit/Desktop/IDS/pcaps
+[25093 - Suricata-Main] 2025-11-27 08:51:36 Info: log-pcap: Selected pcap-log compression method: none
+[25093 - Suricata-Main] 2025-11-27 08:51:36 Info: log-pcap: Selected pcap-log conditional logging: all
+[25093 - Suricata-Main] 2025-11-27 08:51:36 Info: log-pcap: using normal logging
+[25093 - Suricata-Main] 2025-11-27 08:51:36 Info: logopenfile: fast output device (regular) initialized: fast.log
+[25093 - Suricata-Main] 2025-11-27 08:51:36 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[25093 - Suricata-Main] 2025-11-27 08:51:36 Info: logopenfile: stats output device (regular) initialized: stats.log
+[25093 - Suricata-Main] 2025-11-27 08:51:36 Info: detect: 6 rule files processed. 158 rules successfully loaded, 0 rules failed, 0 rules skipped
+[25093 - Suricata-Main] 2025-11-27 08:51:36 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[25093 - Suricata-Main] 2025-11-27 08:51:36 Info: detect: 158 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 98 inspect application layer, 0 are decoder event only
+[25093 - Suricata-Main] 2025-11-27 08:51:36 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[25093 - Suricata-Main] 2025-11-27 08:51:36 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[25093 - Suricata-Main] 2025-11-27 08:51:36 Warning: af-packet: invalid cluster-type cluster_none
+[25093 - Suricata-Main] 2025-11-27 08:51:36 Info: runmodes: wlan0: creating 1 thread
+[25095 - W#01-wlan0] 2025-11-27 08:51:36 Info: ioctl: wlan0: MTU 1500
+[25093 - Suricata-Main] 2025-11-27 08:51:36 Notice: threads: Threads created -> W: 1 FM: 1 FR: 1   Engine started.
+[25093 - Suricata-Main] 2025-11-27 08:52:41 Notice: suricata: Signal Received.  Stopping engine.
+[25093 - Suricata-Main] 2025-11-27 08:52:42 Info: suricata: time elapsed 65.795s
+[25093 - Suricata-Main] 2025-11-27 08:52:43 Info: counters: Alerts: 0
+[25093 - Suricata-Main] 2025-11-27 08:52:43 Notice: device: wlan0: packets: 834, drops: 0 (0.00%), invalid chksum: 0
+[25686 - Suricata-Main] 2025-11-27 08:52:44 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[25686 - Suricata-Main] 2025-11-27 08:52:44 Info: cpu: CPUs/cores online: 20
+[25686 - Suricata-Main] 2025-11-27 08:52:44 Info: suricata: Setting engine mode to IDS mode by default
+[25686 - Suricata-Main] 2025-11-27 08:52:44 Info: exception-policy: master exception-policy set to: auto
+[25686 - Suricata-Main] 2025-11-27 08:52:44 Info: suricata: Preparing unexpected signal handling
+[25686 - Suricata-Main] 2025-11-27 08:52:44 Info: log-pcap: Using log dir /home/rishit/Desktop/IDS/pcaps
+[25686 - Suricata-Main] 2025-11-27 08:52:44 Info: log-pcap: Selected pcap-log compression method: none
+[25686 - Suricata-Main] 2025-11-27 08:52:44 Info: log-pcap: Selected pcap-log conditional logging: all
+[25686 - Suricata-Main] 2025-11-27 08:52:44 Info: log-pcap: using normal logging
+[25686 - Suricata-Main] 2025-11-27 08:52:44 Info: logopenfile: fast output device (regular) initialized: fast.log
+[25686 - Suricata-Main] 2025-11-27 08:52:44 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[25686 - Suricata-Main] 2025-11-27 08:52:44 Info: logopenfile: stats output device (regular) initialized: stats.log
+[25686 - Suricata-Main] 2025-11-27 08:52:44 Info: detect: 6 rule files processed. 158 rules successfully loaded, 0 rules failed, 0 rules skipped
+[25686 - Suricata-Main] 2025-11-27 08:52:44 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[25686 - Suricata-Main] 2025-11-27 08:52:44 Info: detect: 158 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 98 inspect application layer, 0 are decoder event only
+[25686 - Suricata-Main] 2025-11-27 08:52:44 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[25686 - Suricata-Main] 2025-11-27 08:52:44 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[25686 - Suricata-Main] 2025-11-27 08:52:44 Warning: af-packet: wlan0: AF_PACKET defrag is recommended for IDS cluster_flow
+[25686 - Suricata-Main] 2025-11-27 08:52:44 Info: runmodes: wlan0: creating 1 thread
+[25694 - W#01-wlan0] 2025-11-27 08:52:44 Info: ioctl: wlan0: MTU 1500
+[25686 - Suricata-Main] 2025-11-27 08:52:44 Notice: threads: Threads created -> W: 1 FM: 1 FR: 1   Engine started.
+[25686 - Suricata-Main] 2025-11-27 09:00:37 Notice: suricata: Signal Received.  Stopping engine.
+[25686 - Suricata-Main] 2025-11-27 09:00:37 Info: suricata: time elapsed 473.225s
+[25686 - Suricata-Main] 2025-11-27 09:00:38 Info: counters: Alerts: 20
+[25686 - Suricata-Main] 2025-11-27 09:00:38 Notice: device: wlan0: packets: 8462, drops: 0 (0.00%), invalid chksum: 0
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Info: cpu: CPUs/cores online: 20
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Info: suricata: Setting engine mode to IDS mode by default
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Info: exception-policy: master exception-policy set to: auto
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Info: suricata: Preparing unexpected signal handling
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Info: log-pcap: Using log dir /home/rishit/Desktop/IDS/pcaps
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Info: log-pcap: Selected pcap-log compression method: none
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Info: log-pcap: Selected pcap-log conditional logging: all
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Info: log-pcap: using normal logging
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Info: logopenfile: fast output device (regular) initialized: fast.log
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Info: logopenfile: stats output device (regular) initialized: stats.log
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Error: detect-parse: Signature missing required value "sid".
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Error: detect: error parsing signature "alert tcp any any -> $HOME_NET any (" from file /home/rishit/Desktop/IDS/rules/local.rules at line 2
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Error: detect-parse: no rule options.
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Error: detect: error parsing signature ")" from file /home/rishit/Desktop/IDS/rules/local.rules at line 9
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Error: detect-parse: Signature missing required value "sid".
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Error: detect: error parsing signature "alert tcp any any -> $HOME_NET any (" from file /home/rishit/Desktop/IDS/rules/local.rules at line 10
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Error: detect-parse: no rule options.
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Error: detect: error parsing signature ")" from file /home/rishit/Desktop/IDS/rules/local.rules at line 17
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Error: detect-parse: Signature missing required value "sid".
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Error: detect: error parsing signature "alert tcp any any -> $HOME_NET any (" from file /home/rishit/Desktop/IDS/rules/local.rules at line 18
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Error: detect-parse: no rule options.
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Error: detect: error parsing signature ")" from file /home/rishit/Desktop/IDS/rules/local.rules at line 24
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Error: detect-parse: Signature missing required value "sid".
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Error: detect: error parsing signature "alert tcp any any -> $HOME_NET any (" from file /home/rishit/Desktop/IDS/rules/local.rules at line 25
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Error: detect-parse: no rule options.
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Error: detect: error parsing signature ")" from file /home/rishit/Desktop/IDS/rules/local.rules at line 31
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Error: detect-parse: Signature missing required value "sid".
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Error: detect: error parsing signature "alert tcp any any -> $HOME_NET any (" from file /home/rishit/Desktop/IDS/rules/local.rules at line 32
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Error: detect-parse: no rule options.
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Error: detect: error parsing signature ")" from file /home/rishit/Desktop/IDS/rules/local.rules at line 39
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Info: detect: 6 rule files processed. 158 rules successfully loaded, 10 rules failed, 0 rules skipped
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Info: detect: 158 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 98 inspect application layer, 0 are decoder event only
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Warning: af-packet: wlan0: AF_PACKET defrag is recommended for IDS cluster_flow
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Info: runmodes: wlan0: creating 1 thread
+[28927 - W#01-wlan0] 2025-11-27 09:00:44 Info: ioctl: wlan0: MTU 1500
+[28925 - Suricata-Main] 2025-11-27 09:00:44 Notice: threads: Threads created -> W: 1 FM: 1 FR: 1   Engine started.
+[28925 - Suricata-Main] 2025-11-27 09:01:47 Notice: suricata: Signal Received.  Stopping engine.
+[28925 - Suricata-Main] 2025-11-27 09:01:47 Info: suricata: time elapsed 63.746s
+[28925 - Suricata-Main] 2025-11-27 09:01:48 Info: counters: Alerts: 0
+[28925 - Suricata-Main] 2025-11-27 09:01:48 Notice: device: wlan0: packets: 828, drops: 0 (0.00%), invalid chksum: 0
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Info: cpu: CPUs/cores online: 20
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Info: suricata: Setting engine mode to IDS mode by default
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Info: exception-policy: master exception-policy set to: auto
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Info: suricata: Preparing unexpected signal handling
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Info: log-pcap: Using log dir /home/rishit/Desktop/IDS/pcaps
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Info: log-pcap: Selected pcap-log compression method: none
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Info: log-pcap: Selected pcap-log conditional logging: all
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Info: log-pcap: using normal logging
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Info: logopenfile: fast output device (regular) initialized: fast.log
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Info: logopenfile: stats output device (regular) initialized: stats.log
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Error: detect-parse: Signature missing required value "sid".
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Error: detect: error parsing signature "alert icmp any any -> $HOME_NET any (" from file /home/rishit/Desktop/IDS/rules/local.rules at line 4
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Error: detect-parse: no rule options.
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Error: detect: error parsing signature ")" from file /home/rishit/Desktop/IDS/rules/local.rules at line 8
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Error: detect-parse: Signature missing required value "sid".
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Error: detect: error parsing signature "alert tcp any any -> $HOME_NET any (" from file /home/rishit/Desktop/IDS/rules/local.rules at line 16
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Error: detect-parse: no rule options.
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Error: detect: error parsing signature ")" from file /home/rishit/Desktop/IDS/rules/local.rules at line 23
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Error: detect-parse: Signature missing required value "sid".
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Error: detect: error parsing signature "alert tcp any any -> $HOME_NET any (" from file /home/rishit/Desktop/IDS/rules/local.rules at line 26
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Error: detect-parse: no rule options.
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Error: detect: error parsing signature ")" from file /home/rishit/Desktop/IDS/rules/local.rules at line 33
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Error: detect-parse: Signature missing required value "sid".
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Error: detect: error parsing signature "alert tcp any any -> $HOME_NET any (" from file /home/rishit/Desktop/IDS/rules/local.rules at line 36
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Error: detect-parse: no rule options.
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Error: detect: error parsing signature ")" from file /home/rishit/Desktop/IDS/rules/local.rules at line 42
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Error: detect-parse: Signature missing required value "sid".
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Error: detect: error parsing signature "alert tcp any any -> $HOME_NET any (" from file /home/rishit/Desktop/IDS/rules/local.rules at line 45
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Error: detect-parse: no rule options.
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Error: detect: error parsing signature ")" from file /home/rishit/Desktop/IDS/rules/local.rules at line 51
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Error: detect-parse: Signature missing required value "sid".
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Error: detect: error parsing signature "alert tcp any any -> $HOME_NET any (" from file /home/rishit/Desktop/IDS/rules/local.rules at line 54
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Error: detect-parse: no rule options.
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Error: detect: error parsing signature ")" from file /home/rishit/Desktop/IDS/rules/local.rules at line 60
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Error: detect-parse: Signature missing required value "sid".
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Error: detect: error parsing signature "alert tcp any any -> $HOME_NET any (" from file /home/rishit/Desktop/IDS/rules/local.rules at line 63
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Error: detect-parse: no rule options.
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Error: detect: error parsing signature ")" from file /home/rishit/Desktop/IDS/rules/local.rules at line 70
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Info: detect: 6 rule files processed. 157 rules successfully loaded, 14 rules failed, 0 rules skipped
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Info: detect: 157 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 98 inspect application layer, 0 are decoder event only
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Warning: af-packet: wlan0: AF_PACKET defrag is recommended for IDS cluster_flow
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Info: runmodes: wlan0: creating 1 thread
+[29400 - W#01-wlan0] 2025-11-27 09:01:53 Info: ioctl: wlan0: MTU 1500
+[29398 - Suricata-Main] 2025-11-27 09:01:53 Notice: threads: Threads created -> W: 1 FM: 1 FR: 1   Engine started.
+[29398 - Suricata-Main] 2025-11-27 09:02:52 Notice: suricata: Signal Received.  Stopping engine.
+[29398 - Suricata-Main] 2025-11-27 09:02:53 Info: suricata: time elapsed 59.780s
+[29398 - Suricata-Main] 2025-11-27 09:02:54 Info: counters: Alerts: 0
+[29398 - Suricata-Main] 2025-11-27 09:02:54 Notice: device: wlan0: packets: 1346, drops: 0 (0.00%), invalid chksum: 0
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Info: cpu: CPUs/cores online: 20
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Info: suricata: Setting engine mode to IDS mode by default
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Info: exception-policy: master exception-policy set to: auto
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Info: suricata: Preparing unexpected signal handling
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Info: log-pcap: Using log dir /home/rishit/Desktop/IDS/pcaps
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Info: log-pcap: Selected pcap-log compression method: none
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Info: log-pcap: Selected pcap-log conditional logging: all
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Info: log-pcap: using normal logging
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Info: logopenfile: fast output device (regular) initialized: fast.log
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Info: logopenfile: stats output device (regular) initialized: stats.log
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Error: detect-parse: Signature missing required value "sid".
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Error: detect: error parsing signature "alert icmp any any -> $HOME_NET any (" from file /home/rishit/Desktop/IDS/rules/local.rules at line 4
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Error: detect-parse: no rule options.
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Error: detect: error parsing signature ")" from file /home/rishit/Desktop/IDS/rules/local.rules at line 8
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Error: detect-parse: Signature missing required value "sid".
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Error: detect: error parsing signature "alert tcp any any -> $HOME_NET any (" from file /home/rishit/Desktop/IDS/rules/local.rules at line 16
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Error: detect-parse: no rule options.
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Error: detect: error parsing signature ")" from file /home/rishit/Desktop/IDS/rules/local.rules at line 23
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Error: detect-parse: Signature missing required value "sid".
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Error: detect: error parsing signature "alert tcp any any -> $HOME_NET any (" from file /home/rishit/Desktop/IDS/rules/local.rules at line 26
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Error: detect-parse: no rule options.
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Error: detect: error parsing signature ")" from file /home/rishit/Desktop/IDS/rules/local.rules at line 33
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Error: detect-parse: Signature missing required value "sid".
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Error: detect: error parsing signature "alert tcp any any -> $HOME_NET any (" from file /home/rishit/Desktop/IDS/rules/local.rules at line 36
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Error: detect-parse: no rule options.
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Error: detect: error parsing signature ")" from file /home/rishit/Desktop/IDS/rules/local.rules at line 42
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Error: detect-parse: Signature missing required value "sid".
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Error: detect: error parsing signature "alert tcp any any -> $HOME_NET any (" from file /home/rishit/Desktop/IDS/rules/local.rules at line 45
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Error: detect-parse: no rule options.
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Error: detect: error parsing signature ")" from file /home/rishit/Desktop/IDS/rules/local.rules at line 51
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Error: detect-parse: Signature missing required value "sid".
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Error: detect: error parsing signature "alert tcp any any -> $HOME_NET any (" from file /home/rishit/Desktop/IDS/rules/local.rules at line 54
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Error: detect-parse: no rule options.
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Error: detect: error parsing signature ")" from file /home/rishit/Desktop/IDS/rules/local.rules at line 60
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Error: detect-parse: Signature missing required value "sid".
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Error: detect: error parsing signature "alert tcp any any -> $HOME_NET any (" from file /home/rishit/Desktop/IDS/rules/local.rules at line 63
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Error: detect-parse: no rule options.
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Error: detect: error parsing signature ")" from file /home/rishit/Desktop/IDS/rules/local.rules at line 70
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Info: detect: 6 rule files processed. 157 rules successfully loaded, 14 rules failed, 0 rules skipped
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Info: detect: 157 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 98 inspect application layer, 0 are decoder event only
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Warning: af-packet: wlan0: AF_PACKET defrag is recommended for IDS cluster_flow
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Info: runmodes: wlan0: creating 1 thread
+[29957 - W#01-wlan0] 2025-11-27 09:03:15 Info: ioctl: wlan0: MTU 1500
+[29955 - Suricata-Main] 2025-11-27 09:03:15 Notice: threads: Threads created -> W: 1 FM: 1 FR: 1   Engine started.
+[29955 - Suricata-Main] 2025-11-27 09:03:54 Notice: suricata: Signal Received.  Stopping engine.
+[29955 - Suricata-Main] 2025-11-27 09:03:54 Info: suricata: time elapsed 38.865s
+[29955 - Suricata-Main] 2025-11-27 09:03:55 Info: counters: Alerts: 0
+[29955 - Suricata-Main] 2025-11-27 09:03:55 Notice: device: wlan0: packets: 858, drops: 0 (0.00%), invalid chksum: 0
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Info: cpu: CPUs/cores online: 20
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Info: suricata: Setting engine mode to IDS mode by default
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Info: exception-policy: master exception-policy set to: auto
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Info: suricata: Preparing unexpected signal handling
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Info: log-pcap: Using log dir /home/rishit/Desktop/IDS/pcaps
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Info: log-pcap: Selected pcap-log compression method: none
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Info: log-pcap: Selected pcap-log conditional logging: all
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Info: log-pcap: using normal logging
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Info: logopenfile: fast output device (regular) initialized: fast.log
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Info: logopenfile: stats output device (regular) initialized: stats.log
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Error: detect-parse: Signature missing required value "sid".
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Error: detect: error parsing signature "alert icmp any any -> $HOME_NET any (" from file /home/rishit/Desktop/IDS/rules/local.rules at line 4
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Error: detect-parse: no rule options.
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Error: detect: error parsing signature ")" from file /home/rishit/Desktop/IDS/rules/local.rules at line 8
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Error: detect-parse: Signature missing required value "sid".
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Error: detect: error parsing signature "alert tcp any any -> $HOME_NET any (" from file /home/rishit/Desktop/IDS/rules/local.rules at line 15
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Error: detect-parse: no rule options.
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Error: detect: error parsing signature ")" from file /home/rishit/Desktop/IDS/rules/local.rules at line 22
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Error: detect-parse: Signature missing required value "sid".
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Error: detect: error parsing signature "alert tcp any any -> $HOME_NET any (" from file /home/rishit/Desktop/IDS/rules/local.rules at line 25
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Error: detect-parse: no rule options.
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Error: detect: error parsing signature ")" from file /home/rishit/Desktop/IDS/rules/local.rules at line 32
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Error: detect-parse: Signature missing required value "sid".
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Error: detect: error parsing signature "alert tcp any any -> $HOME_NET any (" from file /home/rishit/Desktop/IDS/rules/local.rules at line 35
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Error: detect-parse: no rule options.
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Error: detect: error parsing signature ")" from file /home/rishit/Desktop/IDS/rules/local.rules at line 41
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Error: detect-parse: Signature missing required value "sid".
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Error: detect: error parsing signature "alert tcp any any -> $HOME_NET any (" from file /home/rishit/Desktop/IDS/rules/local.rules at line 44
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Error: detect-parse: no rule options.
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Error: detect: error parsing signature ")" from file /home/rishit/Desktop/IDS/rules/local.rules at line 50
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Error: detect-parse: Signature missing required value "sid".
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Error: detect: error parsing signature "alert tcp any any -> $HOME_NET any (" from file /home/rishit/Desktop/IDS/rules/local.rules at line 53
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Error: detect-parse: no rule options.
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Error: detect: error parsing signature ")" from file /home/rishit/Desktop/IDS/rules/local.rules at line 59
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Error: detect-parse: Signature missing required value "sid".
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Error: detect: error parsing signature "alert tcp any any -> $HOME_NET any (" from file /home/rishit/Desktop/IDS/rules/local.rules at line 62
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Error: detect-parse: no rule options.
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Error: detect: error parsing signature ")" from file /home/rishit/Desktop/IDS/rules/local.rules at line 69
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Info: detect: 6 rule files processed. 157 rules successfully loaded, 14 rules failed, 0 rules skipped
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Info: detect: 157 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 98 inspect application layer, 0 are decoder event only
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Warning: af-packet: wlan0: AF_PACKET defrag is recommended for IDS cluster_flow
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Info: runmodes: wlan0: creating 1 thread
+[30529 - W#01-wlan0] 2025-11-27 09:04:37 Info: ioctl: wlan0: MTU 1500
+[30527 - Suricata-Main] 2025-11-27 09:04:37 Notice: threads: Threads created -> W: 1 FM: 1 FR: 1   Engine started.
+[30527 - Suricata-Main] 2025-11-27 09:06:24 Notice: suricata: Signal Received.  Stopping engine.
+[30527 - Suricata-Main] 2025-11-27 09:06:25 Info: suricata: time elapsed 108.651s
+[30527 - Suricata-Main] 2025-11-27 09:06:26 Info: counters: Alerts: 0
+[30527 - Suricata-Main] 2025-11-27 09:06:26 Notice: device: wlan0: packets: 951, drops: 0 (0.00%), invalid chksum: 0
+[31579 - Suricata-Main] 2025-11-27 09:07:06 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[31579 - Suricata-Main] 2025-11-27 09:07:06 Info: cpu: CPUs/cores online: 20
+[31579 - Suricata-Main] 2025-11-27 09:07:06 Info: suricata: Setting engine mode to IDS mode by default
+[31579 - Suricata-Main] 2025-11-27 09:07:06 Info: exception-policy: master exception-policy set to: auto
+[31579 - Suricata-Main] 2025-11-27 09:07:06 Info: suricata: Preparing unexpected signal handling
+[31579 - Suricata-Main] 2025-11-27 09:07:06 Info: log-pcap: Using log dir /home/rishit/Desktop/IDS/pcaps
+[31579 - Suricata-Main] 2025-11-27 09:07:06 Info: log-pcap: Selected pcap-log compression method: none
+[31579 - Suricata-Main] 2025-11-27 09:07:06 Info: log-pcap: Selected pcap-log conditional logging: all
+[31579 - Suricata-Main] 2025-11-27 09:07:06 Info: log-pcap: using normal logging
+[31579 - Suricata-Main] 2025-11-27 09:07:06 Info: logopenfile: fast output device (regular) initialized: fast.log
+[31579 - Suricata-Main] 2025-11-27 09:07:06 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[31579 - Suricata-Main] 2025-11-27 09:07:06 Info: logopenfile: stats output device (regular) initialized: stats.log
+[31579 - Suricata-Main] 2025-11-27 09:07:06 Info: detect: 6 rule files processed. 164 rules successfully loaded, 0 rules failed, 0 rules skipped
+[31579 - Suricata-Main] 2025-11-27 09:07:06 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[31579 - Suricata-Main] 2025-11-27 09:07:06 Info: detect: 164 signatures processed. 1 are IP-only rules, 1 are inspecting packet payload, 98 inspect application layer, 0 are decoder event only
+[31579 - Suricata-Main] 2025-11-27 09:07:06 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 1 total cacheable: 1
+[31579 - Suricata-Main] 2025-11-27 09:07:06 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[31579 - Suricata-Main] 2025-11-27 09:07:06 Warning: af-packet: wlan0: AF_PACKET defrag is recommended for IDS cluster_flow
+[31579 - Suricata-Main] 2025-11-27 09:07:06 Info: runmodes: wlan0: creating 1 thread
+[31581 - W#01-wlan0] 2025-11-27 09:07:06 Info: ioctl: wlan0: MTU 1500
+[31579 - Suricata-Main] 2025-11-27 09:07:06 Notice: threads: Threads created -> W: 1 FM: 1 FR: 1   Engine started.
+[31581 - W#01-wlan0] 2025-11-27 10:30:06 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19028 - W#01-wlan0] 2025-11-27 10:30:06 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19032 - W#05-wlan0] 2025-11-27 10:30:06 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19047 - W#20-wlan0] 2025-11-27 10:30:06 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19043 - W#16-wlan0] 2025-11-27 10:30:06 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19031 - W#04-wlan0] 2025-11-27 10:30:06 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19033 - W#06-wlan0] 2025-11-27 10:30:06 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19045 - W#18-wlan0] 2025-11-27 10:30:06 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19038 - W#11-wlan0] 2025-11-27 10:30:06 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19030 - W#03-wlan0] 2025-11-27 10:30:06 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19036 - W#09-wlan0] 2025-11-27 10:30:06 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19039 - W#12-wlan0] 2025-11-27 10:30:06 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19037 - W#10-wlan0] 2025-11-27 10:30:06 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19046 - W#19-wlan0] 2025-11-27 10:30:06 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19044 - W#17-wlan0] 2025-11-27 10:30:06 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19040 - W#13-wlan0] 2025-11-27 10:30:06 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19035 - W#08-wlan0] 2025-11-27 10:30:06 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19041 - W#14-wlan0] 2025-11-27 10:30:06 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19042 - W#15-wlan0] 2025-11-27 10:30:06 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19034 - W#07-wlan0] 2025-11-27 10:30:06 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19029 - W#02-wlan0] 2025-11-27 10:30:06 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19038 - W#11-wlan0] 2025-11-27 10:30:07 Info: af-packet: wlan0: interface is back up
+[19034 - W#07-wlan0] 2025-11-27 10:30:07 Info: af-packet: wlan0: interface is back up
+[19046 - W#19-wlan0] 2025-11-27 10:30:07 Info: af-packet: wlan0: interface is back up
+[19044 - W#17-wlan0] 2025-11-27 10:30:07 Info: af-packet: wlan0: interface is back up
+[19042 - W#15-wlan0] 2025-11-27 10:30:07 Info: af-packet: wlan0: interface is back up
+[19036 - W#09-wlan0] 2025-11-27 10:30:07 Info: af-packet: wlan0: interface is back up
+[19029 - W#02-wlan0] 2025-11-27 10:30:07 Info: af-packet: wlan0: interface is back up
+[19028 - W#01-wlan0] 2025-11-27 10:30:07 Info: af-packet: wlan0: interface is back up
+[19040 - W#13-wlan0] 2025-11-27 10:30:07 Info: af-packet: wlan0: interface is back up
+[19037 - W#10-wlan0] 2025-11-27 10:30:07 Info: af-packet: wlan0: interface is back up
+[19045 - W#18-wlan0] 2025-11-27 10:30:07 Info: af-packet: wlan0: interface is back up
+[19035 - W#08-wlan0] 2025-11-27 10:30:07 Info: af-packet: wlan0: interface is back up
+[19041 - W#14-wlan0] 2025-11-27 10:30:07 Info: af-packet: wlan0: interface is back up
+[19032 - W#05-wlan0] 2025-11-27 10:30:07 Info: af-packet: wlan0: interface is back up
+[31581 - W#01-wlan0] 2025-11-27 10:30:07 Info: af-packet: wlan0: interface is back up
+[19039 - W#12-wlan0] 2025-11-27 10:30:07 Info: af-packet: wlan0: interface is back up
+[19031 - W#04-wlan0] 2025-11-27 10:30:07 Info: af-packet: wlan0: interface is back up
+[19033 - W#06-wlan0] 2025-11-27 10:30:07 Info: af-packet: wlan0: interface is back up
+[19045 - W#18-wlan0] 2025-11-27 10:30:07 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19034 - W#07-wlan0] 2025-11-27 10:30:07 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[31581 - W#01-wlan0] 2025-11-27 10:30:07 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19028 - W#01-wlan0] 2025-11-27 10:30:07 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19044 - W#17-wlan0] 2025-11-27 10:30:07 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19046 - W#19-wlan0] 2025-11-27 10:30:07 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19039 - W#12-wlan0] 2025-11-27 10:30:07 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19040 - W#13-wlan0] 2025-11-27 10:30:07 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19030 - W#03-wlan0] 2025-11-27 10:30:07 Error: af-packet: wlan0: failed to set fanout mode: Invalid argument
+[19036 - W#09-wlan0] 2025-11-27 10:30:07 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19038 - W#11-wlan0] 2025-11-27 10:30:07 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19035 - W#08-wlan0] 2025-11-27 10:30:07 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19047 - W#20-wlan0] 2025-11-27 10:30:07 Error: af-packet: wlan0: failed to set fanout mode: Invalid argument
+[19037 - W#10-wlan0] 2025-11-27 10:30:07 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19033 - W#06-wlan0] 2025-11-27 10:30:07 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19031 - W#04-wlan0] 2025-11-27 10:30:07 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19032 - W#05-wlan0] 2025-11-27 10:30:07 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19041 - W#14-wlan0] 2025-11-27 10:30:07 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19042 - W#15-wlan0] 2025-11-27 10:30:07 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19029 - W#02-wlan0] 2025-11-27 10:30:07 Warning: af-packet: wlan0: failed to poll interface: Network is down
+[19043 - W#16-wlan0] 2025-11-27 10:30:07 Error: af-packet: wlan0: failed to set fanout mode: Invalid argument
+[19030 - W#03-wlan0] 2025-11-27 10:30:43 Info: af-packet: wlan0: interface is back up
+[19042 - W#15-wlan0] 2025-11-27 10:30:43 Info: af-packet: wlan0: interface is back up
+[19033 - W#06-wlan0] 2025-11-27 10:30:43 Info: af-packet: wlan0: interface is back up
+[19036 - W#09-wlan0] 2025-11-27 10:30:43 Info: af-packet: wlan0: interface is back up
+[19029 - W#02-wlan0] 2025-11-27 10:30:43 Info: af-packet: wlan0: interface is back up
+[19047 - W#20-wlan0] 2025-11-27 10:30:43 Info: af-packet: wlan0: interface is back up
+[19031 - W#04-wlan0] 2025-11-27 10:30:43 Info: af-packet: wlan0: interface is back up
+[19039 - W#12-wlan0] 2025-11-27 10:30:43 Info: af-packet: wlan0: interface is back up
+[19045 - W#18-wlan0] 2025-11-27 10:30:43 Info: af-packet: wlan0: interface is back up
+[19041 - W#14-wlan0] 2025-11-27 10:30:43 Info: af-packet: wlan0: interface is back up
+[19035 - W#08-wlan0] 2025-11-27 10:30:43 Info: af-packet: wlan0: interface is back up
+[19028 - W#01-wlan0] 2025-11-27 10:30:43 Info: af-packet: wlan0: interface is back up
+[19032 - W#05-wlan0] 2025-11-27 10:30:43 Info: af-packet: wlan0: interface is back up
+[19037 - W#10-wlan0] 2025-11-27 10:30:43 Info: af-packet: wlan0: interface is back up
+[19040 - W#13-wlan0] 2025-11-27 10:30:43 Info: af-packet: wlan0: interface is back up
+[19044 - W#17-wlan0] 2025-11-27 10:30:43 Info: af-packet: wlan0: interface is back up
+[19043 - W#16-wlan0] 2025-11-27 10:30:43 Info: af-packet: wlan0: interface is back up
+[19038 - W#11-wlan0] 2025-11-27 10:30:43 Info: af-packet: wlan0: interface is back up
+[31581 - W#01-wlan0] 2025-11-27 10:30:43 Info: af-packet: wlan0: interface is back up
+[19046 - W#19-wlan0] 2025-11-27 10:30:43 Info: af-packet: wlan0: interface is back up
+[19034 - W#07-wlan0] 2025-11-27 10:30:43 Info: af-packet: wlan0: interface is back up

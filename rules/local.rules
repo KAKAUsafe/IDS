@@ -1,0 +1,13 @@
+alert icmp any any -> $HOME_NET any (msg:"ICMP Test Rule"; sid:1; rev:1;)
+
+alert tcp any any -> $HOME_NET any (msg:"IDS: TCP SYN Scan Detected"; flags:S; threshold:type both, track by_src, count 8, seconds 5; classtype:attempted-recon; sid:3000001; rev:1;)
+
+alert tcp any any -> $HOME_NET any (msg:"IDS: TCP ACK Scan Detected"; flags:A; threshold:type both, track by_src, count 10, seconds 5; classtype:attempted-recon; sid:3000002; rev:1;)
+
+alert tcp any any -> $HOME_NET any (msg:"IDS: TCP NULL Scan Detected"; flags:0; classtype:attempted-recon; sid:3000003; rev:1;)
+
+alert tcp any any -> $HOME_NET any (msg:"IDS: TCP FIN Scan Detected"; flags:F; classtype:attempted-recon; sid:3000004; rev:1;)
+
+alert tcp any any -> $HOME_NET any (msg:"IDS: TCP XMAS Scan Detected"; flags:FPU; classtype:attempted-recon; sid:3000005; rev:1;)
+
+alert tcp any any -> $HOME_NET any (msg:"IDS: Nmap Aggressive Scan Detected"; content:"|00 00 00 00 00 00 00 00|"; depth:8; classtype:attempted-recon; sid:3000006; rev:1;)
